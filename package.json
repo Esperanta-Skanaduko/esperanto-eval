@@ -1,0 +1,31 @@
+{
+  "name": "esperanto-eval",
+  "version": "0.1.0",
+  "description": "A benchmark of Esperanto grammar and word-building for language models: correlatives, accusative, agreement, affixes, verb forms and numbers, with generated, auditable answer keys and a harness for any model.",
+  "keywords": ["esperanto", "benchmark", "llm", "evaluation", "language-model", "grammar", "nlp", "low-resource"],
+  "license": "MIT",
+  "author": {
+    "name": "Victor Williams",
+    "email": "victor.williams.dev@gmail.com",
+    "url": "https://github.com/Vaporjawn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esperanta-Skanaduko/esperanto-eval.git"
+  },
+  "homepage": "https://esperantaskanaduko.com/open-source/esperanto-eval/",
+  "bugs": "https://github.com/Esperanta-Skanaduko/esperanto-eval/issues",
+  "type": "module",
+  "bin": { "esperanto-eval": "bin/esperanto-eval.mjs" },
+  "files": ["bin", "src", "data", "docs", "results", "README.md", "LICENSE"],
+  "exports": {
+    "./items.jsonl": "./data/v0.1/items.jsonl",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "verify": "node bin/esperanto-eval.mjs verify",
+    "baselines": "node bin/esperanto-eval.mjs baselines --out results/baselines.json"
+  },
+  "engines": { "node": ">=20" }
+}

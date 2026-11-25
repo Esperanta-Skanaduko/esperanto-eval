@@ -1,0 +1,282 @@
+{
+  "random": {
+    "tasks": [
+      {
+        "task": "correlative-write",
+        "correct": 0,
+        "total": 45,
+        "accuracy": 0,
+        "low": 0,
+        "high": 0.07865159873288836
+      },
+      {
+        "task": "correlative-meaning",
+        "correct": 14,
+        "total": 60,
+        "accuracy": 0.23333333333333334,
+        "low": 0.1443956173664283,
+        "high": 0.35436270377601964
+      },
+      {
+        "task": "accusative",
+        "correct": 0,
+        "total": 100,
+        "accuracy": 0,
+        "low": 3.469446951953614e-18,
+        "high": 0.03699349820698568
+      },
+      {
+        "task": "grammaticality",
+        "correct": 53,
+        "total": 100,
+        "accuracy": 0.53,
+        "low": 0.4328885697009936,
+        "high": 0.6248918204065872
+      },
+      {
+        "task": "word-building",
+        "correct": 0,
+        "total": 72,
+        "accuracy": 0,
+        "low": 0,
+        "high": 0.05065117259645781
+      },
+      {
+        "task": "conjugation",
+        "correct": 0,
+        "total": 100,
+        "accuracy": 0,
+        "low": 3.469446951953614e-18,
+        "high": 0.03699349820698568
+      },
+      {
+        "task": "number-write",
+        "correct": 0,
+        "total": 50,
+        "accuracy": 0,
+        "low": 6.938893903907228e-18,
+        "high": 0.07134759913335872
+      },
+      {
+        "task": "number-read",
+        "correct": 0,
+        "total": 50,
+        "accuracy": 0,
+        "low": 6.938893903907228e-18,
+        "high": 0.07134759913335872
+      }
+    ],
+    "overall": 0.09541666666666668,
+    "items": 577
+  },
+  "first-option": {
+    "tasks": [
+      {
+        "task": "correlative-write",
+        "correct": 0,
+        "total": 45,
+        "accuracy": 0,
+        "low": 0,
+        "high": 0.07865159873288836
+      },
+      {
+        "task": "correlative-meaning",
+        "correct": 17,
+        "total": 60,
+        "accuracy": 0.2833333333333333,
+        "low": 0.18506828428432714,
+        "high": 0.4076728516439118
+      },
+      {
+        "task": "accusative",
+        "correct": 0,
+        "total": 100,
+        "accuracy": 0,
+        "low": 3.469446951953614e-18,
+        "high": 0.03699349820698568
+      },
+      {
+        "task": "grammaticality",
+        "correct": 50,
+        "total": 100,
+        "accuracy": 0.5,
+        "low": 0.4038315303659956,
+        "high": 0.5961684696340044
+      },
+      {
+        "task": "word-building",
+        "correct": 0,
+        "total": 72,
+        "accuracy": 0,
+        "low": 0,
+        "high": 0.05065117259645781
+      },
+      {
+        "task": "conjugation",
+        "correct": 0,
+        "total": 100,
+        "accuracy": 0,
+        "low": 3.469446951953614e-18,
+        "high": 0.03699349820698568
+      },
+      {
+        "task": "number-write",
+        "correct": 0,
+        "total": 50,
+        "accuracy": 0,
+        "low": 6.938893903907228e-18,
+        "high": 0.07134759913335872
+      },
+      {
+        "task": "number-read",
+        "correct": 0,
+        "total": 50,
+        "accuracy": 0,
+        "low": 6.938893903907228e-18,
+        "high": 0.07134759913335872
+      }
+    ],
+    "overall": 0.09791666666666667,
+    "items": 577
+  },
+  "copy-input": {
+    "tasks": [
+      {
+        "task": "correlative-write",
+        "correct": 0,
+        "total": 45,
+        "accuracy": 0,
+        "low": 0,
+        "high": 0.07865159873288836
+      },
+      {
+        "task": "correlative-meaning",
+        "correct": 0,
+        "total": 60,
+        "accuracy": 0,
+        "low": 0,
+        "high": 0.06017185214208986
+      },
+      {
+        "task": "accusative",
+        "correct": 0,
+        "total": 100,
+        "accuracy": 0,
+        "low": 3.469446951953614e-18,
+        "high": 0.03699349820698568
+      },
+      {
+        "task": "grammaticality",
+        "correct": 0,
+        "total": 100,
+        "accuracy": 0,
+        "low": 3.469446951953614e-18,
+        "high": 0.03699349820698568
+      },
+      {
+        "task": "word-building",
+        "correct": 0,
+        "total": 72,
+        "accuracy": 0,
+        "low": 0,
+        "high": 0.05065117259645781
+      },
+      {
+        "task": "conjugation",
+        "correct": 0,
+        "total": 100,
+        "accuracy": 0,
+        "low": 3.469446951953614e-18,
+        "high": 0.03699349820698568
+      },
+      {
+        "task": "number-write",
+        "correct": 0,
+        "total": 50,
+        "accuracy": 0,
+        "low": 6.938893903907228e-18,
+        "high": 0.07134759913335872
+      },
+      {
+        "task": "number-read",
+        "correct": 0,
+        "total": 50,
+        "accuracy": 0,
+        "low": 6.938893903907228e-18,
+        "high": 0.07134759913335872
+      }
+    ],
+    "overall": 0,
+    "items": 577
+  },
+  "gold": {
+    "tasks": [
+      {
+        "task": "correlative-write",
+        "correct": 45,
+        "total": 45,
+        "accuracy": 1,
+        "low": 0.9213484012671117,
+        "high": 1
+      },
+      {
+        "task": "correlative-meaning",
+        "correct": 60,
+        "total": 60,
+        "accuracy": 1,
+        "low": 0.93982814785791,
+        "high": 0.9999999999999998
+      },
+      {
+        "task": "accusative",
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1,
+        "low": 0.9630065017930143,
+        "high": 1
+      },
+      {
+        "task": "grammaticality",
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1,
+        "low": 0.9630065017930143,
+        "high": 1
+      },
+      {
+        "task": "word-building",
+        "correct": 72,
+        "total": 72,
+        "accuracy": 1,
+        "low": 0.9493488274035422,
+        "high": 1
+      },
+      {
+        "task": "conjugation",
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1,
+        "low": 0.9630065017930143,
+        "high": 1
+      },
+      {
+        "task": "number-write",
+        "correct": 50,
+        "total": 50,
+        "accuracy": 1,
+        "low": 0.9286524008666414,
+        "high": 1
+      },
+      {
+        "task": "number-read",
+        "correct": 50,
+        "total": 50,
+        "accuracy": 1,
+        "low": 0.9286524008666414,
+        "high": 1
+      }
+    ],
+    "overall": 1,
+    "items": 577
+  }
+}

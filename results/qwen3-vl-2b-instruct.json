@@ -1,0 +1,4693 @@
+{
+  "name": "qwen3-vl-2b-instruct",
+  "date": "2026-11-25",
+  "benchmark": "v0.1",
+  "summary": {
+    "tasks": [
+      {
+        "task": "correlative-write",
+        "correct": 0,
+        "total": 45,
+        "accuracy": 0,
+        "low": 0,
+        "high": 0.07865159873288836
+      },
+      {
+        "task": "correlative-meaning",
+        "correct": 36,
+        "total": 60,
+        "accuracy": 0.6,
+        "low": 0.4736605349204075,
+        "high": 0.7143050946511744
+      },
+      {
+        "task": "accusative",
+        "correct": 19,
+        "total": 100,
+        "accuracy": 0.19,
+        "low": 0.12514751509768735,
+        "high": 0.27778845379064376
+      },
+      {
+        "task": "grammaticality",
+        "correct": 74,
+        "total": 100,
+        "accuracy": 0.74,
+        "low": 0.6462901055081282,
+        "high": 0.8159530153525186
+      },
+      {
+        "task": "word-building",
+        "correct": 19,
+        "total": 72,
+        "accuracy": 0.2638888888888889,
+        "low": 0.17593776659767213,
+        "high": 0.37575862046176634
+      },
+      {
+        "task": "conjugation",
+        "correct": 21,
+        "total": 100,
+        "accuracy": 0.21,
+        "low": 0.141656540619153,
+        "high": 0.29979968834089865
+      },
+      {
+        "task": "number-write",
+        "correct": 2,
+        "total": 50,
+        "accuracy": 0.04,
+        "low": 0.011038884327619805,
+        "high": 0.1346009068750702
+      },
+      {
+        "task": "number-read",
+        "correct": 14,
+        "total": 50,
+        "accuracy": 0.28,
+        "low": 0.17474170665911232,
+        "high": 0.4166512369595657
+      }
+    ],
+    "overall": 0.2904861111111111,
+    "items": 577
+  },
+  "results": [
+    {
+      "id": "v0.1/correlative-write/001",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "anu",
+      "response": "anu",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/002",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki- u",
+      "response": "ki- u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/003",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki- u",
+      "response": "ki- u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/004",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-a",
+      "response": "neni-a",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/005",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-unu",
+      "response": "ki-unu",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/006",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-u",
+      "response": "neni-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/007",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-a",
+      "response": "neni-a",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/008",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/009",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/010",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/011",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki- u, -o, -a, -es, -e, -al, -el, -am, -om",
+      "response": "ki- u, -o, -a, -es, -e, -al, -el, -am, -om",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/012",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/013",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/014",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki- u",
+      "response": "ki- u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/015",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/016",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki- u",
+      "response": "ki- u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/017",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/018",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki- u",
+      "response": "ki- u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/019",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "en tiu maniero",
+      "response": "en tiu maniero",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/020",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/021",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/022",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/023",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/024",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-",
+      "response": "neni-",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/025",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-a",
+      "response": "neni-a",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/026",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/027",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki- u",
+      "response": "ki- u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/028",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/029",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/030",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/031",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki- u",
+      "response": "ki- u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/032",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/033",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-",
+      "response": "ki-",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/034",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/035",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/036",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/037",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-u",
+      "response": "neni-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/038",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki- u",
+      "response": "ki- u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/039",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-unu",
+      "response": "neni-unu",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/040",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-u",
+      "response": "ki-u",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/041",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "ki-",
+      "response": "ki-",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/042",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-aj",
+      "response": "neni-aj",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/043",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-",
+      "response": "neni-",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/044",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-",
+      "response": "neni-",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-write/045",
+      "task": "correlative-write",
+      "correct": false,
+      "extracted": "neni-a",
+      "response": "neni-a",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/001",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/002",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "C",
+      "response": "C) how",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/003",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A) nothing",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/004",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) everyone / each one",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/005",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) no one",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/006",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/007",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/008",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) in no way",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/009",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "C",
+      "response": "C) in that way / so",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/010",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) some amount / a little",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/011",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "D",
+      "response": "D",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/012",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A) nowhere",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/013",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) why",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/014",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "D",
+      "response": "D) that kind of / such",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/015",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) that one",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/016",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D) where",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/017",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/018",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/019",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "C",
+      "response": "C) why",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/020",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "A",
+      "response": "A",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/021",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "C",
+      "response": "C) nowhere",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/022",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) when",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/023",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) in no way",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/024",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "D",
+      "response": "D",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/025",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "C",
+      "response": "C) what",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/026",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/027",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "D",
+      "response": "D) none / no amount",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/028",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "B",
+      "response": "B",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/029",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "C",
+      "response": "C) how much / how many",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/030",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "C",
+      "response": "C) never",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/031",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D) where",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/032",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/033",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) that (thing)",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/034",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) everything",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/035",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/036",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) that kind of / such",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/037",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/038",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "C",
+      "response": "C) someone's",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/039",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "C",
+      "response": "C) for some reason",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/040",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) some amount / a little",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/041",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D) how much / how many",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/042",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "C",
+      "response": "C) no one",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/043",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) something",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/044",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A) never",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/045",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "C",
+      "response": "C) how",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/046",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "C",
+      "response": "C) in no way",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/047",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D) whose",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/048",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "A",
+      "response": "A",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/049",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/050",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/051",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) no one",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/052",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A) nothing",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/053",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "C",
+      "response": "C) that (thing)",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/054",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D) what",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/055",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "A",
+      "response": "A",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/056",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "D",
+      "response": "D",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/057",
+      "task": "correlative-meaning",
+      "correct": true,
+      "extracted": "D",
+      "response": "D) in no way",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/058",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "D",
+      "response": "D) always",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/059",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "A",
+      "response": "A",
+      "error": null
+    },
+    {
+      "id": "v0.1/correlative-meaning/060",
+      "task": "correlative-meaning",
+      "correct": false,
+      "extracted": "C",
+      "response": "C) for that reason",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/001",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La granda arbo vidas la viro.",
+      "response": "La granda arbo vidas la viro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/002",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La birdoj vidas la nova letero.",
+      "response": "La birdoj vidas la nova letero.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/003",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La virinoj manĝas la panojn.",
+      "response": "La virinoj manĝas la panojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/004",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La hundo manĝas la pomojn en la domo.",
+      "response": "La hundo manĝas la pomojn en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/005",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La arbo trovas la knabino.",
+      "response": "La arbo trovas la knabino.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/006",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabinoj manĝas la pomo en la ĝardeno.",
+      "response": "La knabinoj manĝas la pomo en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/007",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La katoj trovas la novajn knabojn.",
+      "response": "La katoj trovas la novajn knabojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/008",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La katoj manĝas la pano en la ĉambro.",
+      "response": "La katoj manĝas la pano en la ĉambro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/009",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bona knabino vidas la kato.",
+      "response": "La bona knabino vidas la kato.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/010",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La granda birdo amas la bonajn knabinojn en la ĉambro.",
+      "response": "La granda birdo amas la bonajn knabinojn en la ĉambro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/011",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La blua hundo amas la malnova kato.",
+      "response": "La blua hundo amas la malnova kato.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/012",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La viro amas la malnovaj knabinoj en la ĝardeno.",
+      "response": "La viro amas la malnovaj knabinoj en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/013",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La belaj knabinoj legas la malnova libro.",
+      "response": "La belaj knabinoj legas la malnova libro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/014",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La hundo trovas la malnovajn pomojn.",
+      "response": "La hundo trovas la malnovajn pomojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/015",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La blua infano legas la granda letero.",
+      "response": "La blua infano legas la granda letero.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/016",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabinoj aĉetas la arbo en la domo.",
+      "response": "La knabinoj aĉetas la arbo en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/017",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bonaj birdoj havas la malnova tablo.",
+      "response": "La bonaj birdoj havas la malnova tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/018",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La grandaj katoj aĉetas la arbo.",
+      "response": "La grandaj katoj aĉetas la arbo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/019",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La malnova birdo amas la malnova infano.",
+      "response": "La malnova birdo amas la malnova infano.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/020",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La novaj domoj aĉetas la kato.",
+      "response": "La novaj domoj aĉetas la kato.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/021",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La kato trovas la nova knabino.",
+      "response": "La kato trovas la nova knabino.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/022",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabino vidas la pomo en la domo.",
+      "response": "La knabino vidas la pomo en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/023",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La granda virino trovas la knabino.",
+      "response": "La granda virino trovas la knabino.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/024",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La tablo vidas la malnova hundo.",
+      "response": "La tablo vidas la malnova hundo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/025",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La panoj manĝas la malgranda hundo.",
+      "response": "La panoj manĝas la malgranda hundo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/026",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La virino havas la knabinoj sur la tablo.",
+      "response": "La virino havas la knabinoj sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/027",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bluaj viroj aĉetas la pano.",
+      "response": "La bluaj viroj aĉetas la pano.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/028",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabinoj trovas la granda letero.",
+      "response": "La knabinoj trovas la granda letero.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/029",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La kato aĉetas la florojn.",
+      "response": "La kato aĉetas la florojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/030",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La viroj trovas la knabo sur la tablo.",
+      "response": "La viroj trovas la knabo sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/031",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La arboj havas la virinojn.",
+      "response": "La arboj havas la virinojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/032",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La kato vidas la malgranda virino en la ĉambro.",
+      "response": "La kato vidas la malgranda virino en la ĉambro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/033",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La granda knabino manĝas la panoj en la ĉambro.",
+      "response": "La granda knabino manĝas la panoj en la ĉambro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/034",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La birdo manĝas la pomo.",
+      "response": "La birdo manĝas la pomo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/035",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La granda knabo amas la novajn katojn.",
+      "response": "La granda knabo amas la novajn katojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/036",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La floroj aĉetas la infano sur la tablo.",
+      "response": "La floroj aĉetas la infano sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/037",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La granda virino vidas la infanojn en la ĝardeno.",
+      "response": "La granda virino vidas la infanojn en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/038",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La ruĝaj knaboj vidas la tablo en la domo.",
+      "response": "La ruĝaj knaboj vidas la tablo en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/039",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La viroj amas la malnova knabo en la ĝardeno.",
+      "response": "La viroj amas la malnova knabo en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/040",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabo amas la birdon en la ĉambro.",
+      "response": "La knabo amas la birdon en la ĉambro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/041",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La granda hundo legas la malgranda letero.",
+      "response": "La granda hundo legas la malgranda letero.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/042",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La pomo trovas la birdon.",
+      "response": "La pomo trovas la birdon.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/043",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabinoj vidas la belajn katojn.",
+      "response": "La knabinoj vidas la belajn katojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/044",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La nova knabo legas la librojn en la domo.",
+      "response": "La nova knabo legas la librojn en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/045",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La katoj legas la blua libro.",
+      "response": "La katoj legas la blua libro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/046",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bela infano trovas la domoj.",
+      "response": "La bela infano trovas la domoj.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/047",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La malgranda knabo vidas la virojn.",
+      "response": "La malgranda knabo vidas la virojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/048",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La virinoj legas la leteroj en la domo.",
+      "response": "La virinoj legas la leteroj en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/049",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La infano vidas la blua floro.",
+      "response": "La infano vidas la blua floro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/050",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La infano aĉetas la pano en la domo.",
+      "response": "La infano aĉetas la pano en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/051",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La granda virino trovas la granda pano.",
+      "response": "La granda virino trovas la granda pano.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/052",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La blua knabino vidas la pomo.",
+      "response": "La blua knabino vidas la pomo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/053",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La knabo amas la birdon.",
+      "response": "La knabo amas la birdon.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/054",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La floro aĉetas la malnovaj hundoj en la ĝardeno.",
+      "response": "La floro aĉetas la malnovaj hundoj en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/055",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bonaj virinoj manĝas la pomo.",
+      "response": "La bonaj virinoj manĝas la pomo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/056",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bluaj panoj manĝas la nova birdo.",
+      "response": "La bluaj panoj manĝas la nova birdo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/057",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La ruĝa hundo havas la arbo en la ĉambro.",
+      "response": "La ruĝa hundo havas la arbo en la ĉambro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/058",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La ruĝaj knabinoj legas la leteroj.",
+      "response": "La ruĝaj knabinoj legas la leteroj.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/059",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La tablo trovas la granda hundo.",
+      "response": "La tablo trovas la granda hundo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/060",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La birdo trovas la viro en la ĉambro.",
+      "response": "La birdo trovas la viro en la ĉambro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/061",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bona hundo havas la malnovaj viroj.",
+      "response": "La bona hundo havas la malnovaj viroj.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/062",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La malgranda pomo trovas la ruĝaj birdoj en la domo.",
+      "response": "La malgranda pomo trovas la ruĝaj birdoj en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/063",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bonaj leteroj aĉetas la knabo en la ĝardeno.",
+      "response": "La bonaj leteroj aĉetas la knabo en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/064",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La novaj libroj legas la knabo en la ĝardeno.",
+      "response": "La novaj libroj legas la knabo en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/065",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La novaj knaboj vidas la virinon en la domo.",
+      "response": "La novaj knaboj vidas la virinon en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/066",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La libroj vidas la bona infano sur la tablo.",
+      "response": "La libroj vidas la bona infano sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/067",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La malgranda pano manĝas la viro.",
+      "response": "La malgranda pano manĝas la viro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/068",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La birdoj havas la nova kato sur la tablo.",
+      "response": "La birdoj havas la nova kato sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/069",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La novaj birdoj amas la infanojn.",
+      "response": "La novaj birdoj amas la infanojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/070",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La malgranda virino vidas la malgrandajn virojn.",
+      "response": "La malgranda virino vidas la malgrandajn virojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/071",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bona knabo trovas la letero.",
+      "response": "La bona knabo trovas la letero.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/072",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabinoj amas la knaboj en la ĝardeno.",
+      "response": "La knabinoj amas la knaboj en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/073",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La ruĝa hundo aĉetas la malgrandaj arboj.",
+      "response": "La ruĝa hundo aĉetas la malgrandaj arboj.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/074",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La novaj leteroj legas la hundoj sur la tablo.",
+      "response": "La novaj leteroj legas la hundoj sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/075",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La virino trovas la granda floro.",
+      "response": "La virino trovas la granda floro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/076",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La birdo aĉetas la leterojn en la domo.",
+      "response": "La birdo aĉetas la leterojn en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/077",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La virino legas la bluajn librojn en la ĉambro.",
+      "response": "La virino legas la bluajn librojn en la ĉambro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/078",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bona hundo aĉetas la granda letero.",
+      "response": "La bona hundo aĉetas la granda letero.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/079",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La malnova kato vidas la pano en la domo.",
+      "response": "La malnova kato vidas la pano en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/080",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La pomo manĝas la bluajn birdojn.",
+      "response": "La pomo manĝas la bluajn birdojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/081",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bela hundo trovas la bela floro en la ĝardeno.",
+      "response": "La bela hundo trovas la bela floro en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/082",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La viro havas la hundo sur la tablo.",
+      "response": "La viro havas la hundo sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/083",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La infanoj trovas la arbo sur la tablo.",
+      "response": "La infanoj trovas la arbo sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/084",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La knabino manĝas la panojn.",
+      "response": "La knabino manĝas la panojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/085",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La viroj trovas la malgranda arbo en la domo.",
+      "response": "La viroj trovas la malgranda arbo en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/086",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La birdo amas la malnovaj hundoj.",
+      "response": "La birdo amas la malnovaj hundoj.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/087",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La novaj viroj legas la libro en la ĝardeno.",
+      "response": "La novaj viroj legas la libro en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/088",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabo amas la katojn.",
+      "response": "La knabo amas la katojn.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/089",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La birdoj legas la librojn en la domo.",
+      "response": "La birdoj legas la librojn en la domo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/090",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La hundo manĝas la granda pomo.",
+      "response": "La hundo manĝas la granda pomo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/091",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabino trovas la ruĝan pano.",
+      "response": "La knabino trovas la ruĝan pano.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/092",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La birdo aĉetas la domon.",
+      "response": "La birdo aĉetas la domon.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/093",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La malnova virino legas la granda libro.",
+      "response": "La malnova virino legas la granda libro.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/094",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La nova kato manĝas la pomo.",
+      "response": "La nova kato manĝas la pomo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/095",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La granda virino aĉetas la belan leteron sur la tablo.",
+      "response": "La granda virino aĉetas la belan leteron sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/096",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La malgranda libro vidas la bela virino.",
+      "response": "La malgranda libro vidas la bela virino.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/097",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La bona knabino trovas la novaj knaboj sur la tablo.",
+      "response": "La bona knabino trovas la novaj knaboj sur la tablo.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/098",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La knabino trovas la belan infanan en la ĝardeno.",
+      "response": "La knabino trovas la belan infanan en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/099",
+      "task": "accusative",
+      "correct": false,
+      "extracted": "La hundoj legas la malgranda letero en la ĝardeno.",
+      "response": "La hundoj legas la malgranda letero en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/accusative/100",
+      "task": "accusative",
+      "correct": true,
+      "extracted": "La granda knabo vidas la grandan arbon.",
+      "response": "La granda knabo vidas la grandan arbon.",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/001",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La bonaj floroj estas tie.**\n\nExplanation: In Esperanto, the correct form is to use the adjective \"bonaj\" (good) with the noun \"floroj\" (",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/002",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La hundo estas nova.**\n\nExplanation: In Esperanto, the adjective \"nova\" (new) must agree in gender and number with the noun it modifies. \"Hundo\" is a masculine",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/003",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La kato havas la floron.**\n\nExplanation: In Esperanto, the noun \"flor\" (flower) is a feminine noun, and the correct grammatical form is to use the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/004",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La virino estas ruĝa kuracisto.\n\nThe correct sentence is **B**, because in Esperanto, the adjective \"ruĝa\" (red) must agree in gender, number, and case with the noun it",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/005",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La hundo dormas en la ĝardenon.\n\nThe correct sentence is **B**, because in Esperanto, the definite article \"la\" (the) must agree with the noun in gender and number. \"Hundo",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/006",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La bluaj arboj dormas.\n\nThe correct sentence is B because in Esperanto, the plural form of \"arbo\" (tree) is \"arboj\" (trees), and the correct grammar requires the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/007",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La domo estas bela.**\n\nExplanation: In Esperanto, the adjective \"bela\" is used with the noun \"domo\" in the singular form, and the correct grammatical structure",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/008",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La viro manĝas la pomon.\n\nThe correct sentence is **B**, because in Esperanto, the noun \"pomo\" (apple) is a singular noun, and the correct form is to use the singular form",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/009",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "Let's analyze the two sentences:\n\n**A) La knabino estas bela instruisto.**  \nThis sentence is grammatically correct in Esperanto. The word \"bela\" is an adjective, and in Esperanto,",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/010",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La kato loĝas en la ĉambro.\n\nThe correct sentence is **B** because in Esperanto, the word **\"ĉambro\"** is the correct noun form for \"room\" (as in",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/011",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La belaj kato staras tie.\n\nThe correct sentence is **B** because in Esperanto, the verb \"staras\" (to stand) is in the third person singular form, and the subject \"kato\"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/012",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La tabloj estas ruĝaj.  \n\nThe correct sentence is **B**, because in Esperanto, the adjective \"ruĝa\" (red) is used with the noun \"tabloj\" (tables) in",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/013",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La knabo amas la kato.**\n\nExplanation: In Esperanto, the word \"kato\" is the correct form of the noun for \"cat\" (note: \"kato\"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/014",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La knabo estas granda kuracisto.\n\nThe correct sentence is **B** because in Esperanto, the adjective \"granda\" (large) must agree in gender and number with the noun it modifies. \"Kur",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/015",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La viro dormas en la ĝardenon.\n\nThe correct sentence is **B**, because in Esperanto, the definite article \"la\" (the) is used with the noun \"ĝardeno\" (garden",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/016",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La grandaj leteroj staras tie.\n\nThe correct sentence is **B** because in Esperanto, the plural form of \"letero\" (letter) is \"leteroj\", and the correct grammar requires the plural",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/017",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La knabinoj estas ruĝa.**\n\nExplanation: In Esperanto, the adjective \"ruĝa\" is the correct form when used with the noun \"knabinoj\" (",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/018",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La hundo havas la knabinon.**\n\nExplanation: In Esperanto, the word \"knabino\" is the feminine form of \"knabino\" (a girl), and \"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/019",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La birdo estas malgranda patro.**\n\nExplanation: In Esperanto, the correct word order and grammar for the sentence is:\n\n- **\"La birdo estas malgranda patro",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/020",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La viro laboras en la domo.  \n\nThe correct sentence is **B**, because in Esperanto, \"domo\" is the correct noun for \"house\" (as in \"the house\"), while \"domon",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/021",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La grandaj arbo dormas.\n\nThe correct sentence is **B** because in Esperanto, the verb \"dormas\" (sleeps) is in the **present tense**, and the subject \"la grandaj ar",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/022",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La knabinoj estas belaj.**\n\nExplanation: In Esperanto, the adjective \"bel\" is used with the noun \"knabinoj\" (girls) in the singular form,",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/023",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La viro vidas la pano.\n\nThe correct sentence is **B** because in Esperanto, the word \"pano\" is the correct form of the noun for \"bread\" (as in \"the bread\"), and",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/024",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La knabino estas ruĝa instruisto.\n\nThe correct sentence is **B**, because in Esperanto, the adjective \"ruĝa\" (red) must agree in gender and number with the noun it modifies.",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/025",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La hundo loĝas en la ĝardenon.\n\nThe correct sentence is **B**, because in Esperanto, the genitive case (used to indicate possession or a noun in a possessive relationship) is formed by",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/026",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La malnovaj domoj estas tie.\n\nThe correct sentence is **B** because in Esperanto, the adjective must agree with the noun in number and gender. \"Malnovaj\" (the plural form of \"malnova",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/027",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La floroj estas malgrandaj.**\n\nExplanation: In Esperanto, the adjective \"malgrandaj\" is used with the noun \"floroj\" (flowers) in the plural,",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/028",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La viro aĉetas la libron.\n\nThe correct sentence is **B** because in Esperanto, the definite article \"la\" (the) is used with the noun \"libro\" (book) in the singular",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/029",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "Let's analyze the two sentences:\n\n**A) La viro estas blua studento.**  \n- This is in the correct Esperanto grammar. The adjective \"blua\" (blue) is used with the noun \"studento",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/030",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La viro laboras en la ĉambro.\n\nThe correct sentence is **B** because in Esperanto, \"ĉambro\" is the correct noun form for \"room\" (as in \"the room\"), while",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/031",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La malnova panoj dormas.\n\nThe correct sentence is **B** because in Esperanto, the noun \"panoj\" (bread) is a plural noun, and the correct grammatical structure requires the use of the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/032",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La knabino estas blua.**\n\nExplanation: In Esperanto, the adjective \"blua\" is the correct form for \"blue\" (as in \"the girl is blue\"). The word",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/033",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La knabo vidas la libron.**\n\nThis is grammatically correct in Esperanto because \"libron\" is the correct noun form (the singular of \"libro\") and \"vidas",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/034",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La kato estas bona kuracisto.\n\nThe correct sentence is **B** because in Esperanto, the word \"kuracisto\" is the correct form of the noun for \"curer\" (a healer or doctor),",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/035",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La virino ludas en la ĉambron.\n\nThe correct sentence is **B** because \"ĉambron\" is the correct spelling of \"ĉambro\" (a room) in Esperanto, and the word",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/036",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La belaj arboj dormas.\n\nThe correct sentence is B, because in Esperanto, the plural form of \"arbo\" (tree) is \"arboj\" (trees), and the correct grammar requires the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/037",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La floro estas blua.**\n\nExplanation: In Esperanto, the adjective \"blua\" is used for a single noun, and it is grammatically correct. The adjective \"bluaj",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/038",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La virino legas la leteron.\n\nThe correct sentence is **B** because in Esperanto, the word \"leteron\" is the correct form of the noun \"letter\" in the genitive case, which",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/039",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "Let's analyze the two sentences:\n\n**A) La birdo estas ruĝa studento.**  \nThis sentence is grammatically correct in Esperanto. The word \"ruĝa\" is an adjective, and \"studento\"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/040",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La infano loĝas en la domo.\n\nThe correct sentence is **B** because in Esperanto, the word \"domo\" (house) is the correct noun form, and \"loĝas\" is the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/041",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La bluaj infanoj dormas.**\n\nExplanation: In Esperanto, the adjective \"bluaj\" (blue) must agree in gender and number with the noun it modifies. \"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/042",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is: **B) La arboj estas grandaj.**\n\nExplanation: In Esperanto, the adjective \"granda\" is used with the noun \"arboj\" (trees) in the plural, and the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/043",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La birdo havas la arbo.**\n\nExplanation: In Esperanto, the word \"arbo\" (tree) is the correct noun form, and \"havas\" is the correct",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/044",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La knabino estas granda amiko.**\n\nExplanation: In Esperanto, the adjective \"granda\" (large) must agree in gender and number with the noun it modifies. \"Kn",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/045",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La viro ludas en la domon.\n\nThe correct sentence is **B** because in Esperanto, the word \"domo\" (house) is a noun and requires a possessive ending when used with a preposition",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/046",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La novaj infanoj dormas.\n\nThe correct sentence is B, because in Esperanto, the plural form of \"infano\" (child) is \"infanoj\" (children), and the correct grammatical structure",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/047",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La tablo estas blua.**\n\nExplanation: In Esperanto, the adjective \"blua\" is used for a single noun, and it is grammatically correct when used with a singular noun.",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/048",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La knabo trovas la birdon.\n\nThe correct sentence is **B** because in Esperanto, the noun \"birdo\" is the masculine singular form, and \"birdon\" is the feminine singular form. The sentence",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/049",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La virino estas bela patro.**\n\nExplanation: In Esperanto, the correct word order for a noun and a noun phrase is typically **\"la [noun] estas [adjective]",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/050",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La knabo laboras en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/051",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La novaj viroj estas tie.**\n\nExplanation: In Esperanto, the correct form is to use the definite article \"la\" (the) before the noun \"novaj viroj",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/052",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is: **B) La viro estas nova.**\n\nExplanation: In Esperanto, the adjective \"nova\" (new) must agree in gender and number with the noun it modifies. The noun \"viro\" (",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/053",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La knabo manĝas la panon.**\n\nExplanation: In Esperanto, the noun \"pano\" (bread) is the correct form when referring to the food. The word \"pan",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/054",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La infano estas bona amiko.**\n\nExplanation: In Esperanto, the word \"amiko\" is the correct form of the noun for \"friend\" (masculine), and \"bon",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/055",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La birdo dormas en la ĉambron.\n\nThe correct sentence is **B** because \"ĉambron\" is the correct possessive form of \"ĉambro\" in Esperanto, and it is grammatically",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/056",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La ruĝaj tabloj dormas.\n\nThe correct sentence is **B** because in Esperanto, the adjective \"ruĝaj\" (red) must agree in gender and number with the noun it modifies. \"Tab",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/057",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La arbo estas granda.**\n\nExplanation: In Esperanto, the adjective \"granda\" is used with the noun \"arbo\" in the singular form. The correct grammatical form is",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/058",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La birdo trovas la knabinon.\n\nThe correct sentence is **B** because in Esperanto, the noun \"knabino\" is the feminine form of \"knabino\" (a girl), and the correct",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/059",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La hundo estas ruĝa amiko.**\n\nExplanation: In Esperanto, the adjective \"ruĝa\" (red) must agree in gender, number, and case with the noun it",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/060",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La kato laboras en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/061",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La grandaj viro staras tie.\n\nThe correct sentence is **B** because in Esperanto, the verb \"staras\" (to stand) is in the **present tense**, and the subject \"la grandaj vi",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/062",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La floro estas malgranda.**\n\nExplanation: In Esperanto, the adjective \"malgrandaj\" is used for plural nouns, and \"malgranda\" is the correct form for the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/063",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La knabino legas la letero.**\n\nExplanation: In Esperanto, the word \"leteron\" is the correct form of the noun for \"letter\" (as in \"the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/064",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La knabo estas ruĝa amiko.**\n\nExplanation: In Esperanto, the adjective \"ruĝa\" (red) must agree in gender, number, and case with the noun it",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/065",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La viro laboras en la ĉambron.\n\nThe correct sentence is **B**, because in Esperanto, the word **\"ĉambron\"** is the correct form of the noun \"ĉambro\" (",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/066",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La ruĝaj floroj estas tie.\n\nThe correct sentence is **B** because in Esperanto, the plural form of \"floro\" (flower) is \"floroj\" (flowers), and the correct grammar",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/067",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La birdo estas bona.**\n\nExplanation: In Esperanto, the adjective \"bona\" is used with the noun \"birdo\" in the singular form, and the correct grammatical structure is",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/068",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La knabo vidas la virinon.\n\nThe correct sentence is **B** because in Esperanto, the feminine form of the noun \"virino\" (woman) is **\"virinon\"**, and the correct",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/069",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La hundo estas bluan amikon.**\n\nExplanation: In Esperanto, the adjective \"blua\" (blue) must agree in gender and number with the noun it modifies. The noun \"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/070",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La kato loĝas en la ĝardeno.**\n\nExplanation: In Esperanto, the word \"ĝardeno\" is the correct form of the noun \"ĝardeno\" (",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/071",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La grandaj knabo estas tie.\n\nThe correct sentence is **B** because in Esperanto, the noun \"knaboj\" (boys) is plural, and the adjective \"grandaj\" (big) is used with",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/072",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La knaboj estas novaj.**\n\nExplanation: In Esperanto, the adjective \"nova\" (new) must agree in gender and number with the noun it modifies. \"Knaboj\"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/073",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La hundo vidas la knabo.**\n\nExplanation: In Esperanto, the word \"knabon\" is the correct form of the accusative case for \"knabon\" (a",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/074",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La knabo estas bela studento.\n\nThe correct sentence is B, because in Esperanto, the adjective \"bela\" (beautiful) must agree in gender and number with the noun it modifies. \"Studento\" is",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/075",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La kato dormas en la ĝardenon.\n\nThe correct sentence is **B**, because in Esperanto, the definite article \"la\" (the) is used with the noun \"ĝardeno\" (garden",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/076",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La bona floroj staras tie.**\n\nExplanation: In Esperanto, the adjective \"bona\" (good) must agree in gender and number with the noun it modifies. The noun \"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/077",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La tabloj estas malgrandaj.**\n\nExplanation: In Esperanto, the adjective \"malgrandaj\" is used with the noun \"tabloj\" (tables) in the plural,",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/078",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La infano havas la domon.\n\nThe correct sentence is **B**, because in Esperanto, the noun \"domo\" (house) is typically used with the definite article \"la\" in the singular, and the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/079",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "Let's analyze the two sentences:\n\n**A) La virino estas bela instruisto.**  \nThis sentence is grammatically correct in Esperanto. The word \"bela\" is an adjective, and in Esperanto, ad",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/080",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La hundo ludas en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/081",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La malnovaj birdo staras tie.**\n\nExplanation: In Esperanto, the noun must agree with the verb in number and gender. \"Birdoj\" is plural, so the noun must",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/082",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La libro estas nova.**\n\nExplanation: In Esperanto, the adjective \"nova\" (new) must agree in gender and number with the noun it modifies. \"Libro\" is a masculine noun",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/083",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La infano manĝas la panon.**\n\nExplanation: In Esperanto, the noun \"pano\" (bread) is the correct form when used in the singular, and \"panon",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/084",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La kato estas malgranda studento.\n\nThe correct sentence is **B**, because in Esperanto, the adjective \"malgranda\" (small) must agree in gender and number with the noun it modifies. The noun",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/085",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La knabo ludas en la ĝardenon.\n\nThe correct sentence is **B**, because in Esperanto, the noun \"ĝardeno\" (garden) is a **masculine** noun, and the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/086",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La ruĝaj birdoj staras tie.**\n\nExplanation: In Esperanto, the correct form of the verb \"staras\" (to stand) is \"staras\" (singular), and",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/087",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La birdo estas nova.**\n\nExplanation: In Esperanto, the adjective \"nova\" (new) is used with the noun \"birdo\" (bird) in the singular form, and the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/088",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La knabo amas la hundon.\n\nThe correct sentence is **B** because in Esperanto, the word \"hundon\" is the correct form of the noun \"hundo\" with the ending \"-on\"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/089",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La kato estas malgranda kuracisto.**\n\nThis is grammatically correct in Esperanto.\n\n**B) La kato estas malgrandan kuraciston.**  \nis incorrect because",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/090",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La knabino loĝas en la ĝardeno.**\n\nExplanation: In Esperanto, the word \"ĝardeno\" is the correct form of the noun \"ĝardeno\"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/091",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La bluaj letero dormas.**\n\nExplanation:  \nIn Esperanto, the word \"letero\" is the correct form for \"letter\" (as in \"letter\" not \"letters",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/092",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La infanoj estas bonaj.**\n\nExplanation: In Esperanto, the adjective \"bonaj\" is the correct form of the adjective \"bono\" (good) when used with the noun",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/093",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "The correct sentence is:\n\n**B) La infano vidas la pano.**\n\nExplanation: In Esperanto, the word \"pano\" is the correct noun form for \"bread\" (as in \"the bread\"), and \"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/094",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La knabo estas blua kuracisto.\n\nThe correct sentence is **B** because in Esperanto, the adjective \"blua\" (blue) must agree in gender and number with the noun it modifies. \"Kur",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/095",
+      "task": "grammaticality",
+      "correct": false,
+      "extracted": "B",
+      "response": "B) La birdo ludas en la domon.\n\nThe correct sentence is **B** because in Esperanto, the definite article \"la\" (the) is used with the noun \"domo\" (house) in the gen",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/096",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La bonaj domoj estas tie.\n\nThe correct sentence is **B** because in Esperanto, the plural form of \"domo\" (house) is \"domoj\" (houses), and the correct grammatical structure is",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/097",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "The correct sentence is:\n\n**A) La knabo estas nova.**\n\nExplanation: In Esperanto, the adjective \"nova\" (new) is used with the noun \"knabo\" (boy) in the singular form, and the",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/098",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La kato amas la knabon.\n\nThe correct sentence is **B**, because in Esperanto, the noun \"knabo\" (boy) requires an ending to indicate possession or a grammatical case. The word \"",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/099",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "A",
+      "response": "Let's analyze the two sentences:\n\n**A) La viro estas ruĝa kuracisto.**  \nThis sentence is grammatically correct in Esperanto. The word \"ruĝa\" is an adjective, and \"kurac",
+      "error": null
+    },
+    {
+      "id": "v0.1/grammaticality/100",
+      "task": "grammaticality",
+      "correct": true,
+      "extracted": "B",
+      "response": "B) La kato dormas en la ĝardeno.",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/001",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "vortaro",
+      "response": "vortaro",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/002",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "belaec",
+      "response": "belaec",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/003",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "ŝlosilo",
+      "response": "ŝlosilo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/004",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "sekaĵo",
+      "response": "sekaĵo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/005",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "bovo-ido",
+      "response": "bovo-ido",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/006",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "lern-ejo",
+      "response": "lern-ejo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/007",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "sukero-uj",
+      "response": "sukero-uj\nsukero-uj\nsukero-uj\nsukero-uj\nsukero-uj\nsukero-uj\nsukero-uj\nsukero-uj",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/008",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "porti-foro",
+      "response": "porti-foro",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/009",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "ŝtato-an",
+      "response": "ŝtato-an\n\nThe word formed is **ŝtato-an**, which is a noun in the form of a noun with the root \"ŝtato\" (state) and the affix \"-an-\" meaning \"citizen\".",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/010",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "fratino",
+      "response": "fratino",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/011",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "manĝaĵo",
+      "response": "manĝaĵo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/012",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "patro-in",
+      "response": "patro-in",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/013",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "veniri",
+      "response": "veniri",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/014",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "kuracist",
+      "response": "kuracist",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/015",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "hundo-id",
+      "response": "hundo-id\nhundo-id\nhundo-id\nhundo-id\nhundo-id\nhundo-id\nhundo-id\nhundo-id\nhundo-id\nhundo-id\nhundo-id\nhundo-id",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/016",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "grandeco",
+      "response": "grandeco",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/017",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "maljunaĵo",
+      "response": "maljunaĵo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/018",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "malsanulo",
+      "response": "malsanulo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/019",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "prezidanto-eks-",
+      "response": "prezidanto-eks-  \nprezidanto-eks-  \nprezidanto-eks-  \nprezidanto-eks-  \nprezidanto-eks-  \nprezidanto-eks-",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/020",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "patrojge",
+      "response": "patrojge\npatrojge\npatrojge\npatrojge\npatrojge\npatrojge\npatrojge\npatrojge\npatrojge\npatroj",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/021",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "skribilo",
+      "response": "skribilo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/022",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "liberaĵo",
+      "response": "liberaĵo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/023",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "mortaig",
+      "response": "mortaig",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/024",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "avululo",
+      "response": "avululo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/025",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "fari-ebl",
+      "response": "fari-ebl",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/026",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "tranĉilo",
+      "response": "tranĉilo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/027",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "legibla",
+      "response": "legibla",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/028",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "dissendi",
+      "response": "dissendi",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/029",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "knabino",
+      "response": "knabino",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/030",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "arboarbo",
+      "response": "arboarbo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/031",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "labori-ejo",
+      "response": "labori-ejo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/032",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "urbo-an",
+      "response": "urbo-an\n\nThe word \"urbo-an\" is not a valid Esperanto word. Let's analyze the request carefully.\n\nWe are to form a word from:\n- Root: \"urbo\" (city)\n- Affix:",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/033",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "ŝpari-em",
+      "response": "ŝpari-em\nŝpari-em\nŝpari-em\nŝpari-em\nŝpari-em\nŝpari-em\nŝpari-em\nŝpari-em\nŝpari-em\nŝpari",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/034",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "manĝejo",
+      "response": "manĝejo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/035",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "kuirejo",
+      "response": "kuirejo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/036",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "grandig",
+      "response": "grandig",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/037",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "kato-ido",
+      "response": "kato-ido",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/038",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "domoeg",
+      "response": "domoeg",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/039",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "venteg",
+      "response": "venteg",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/040",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "danci-ad",
+      "response": "danci-ad\ndanci-ad\ndanci-ad\ndanci-ad\ndanci-ad\ndanci-ad\ndanci-ad\ndanci-ad\ndanci-ad\ndanci",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/041",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "nova-malnova",
+      "response": "nova-malnova",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/042",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "aminda",
+      "response": "aminda",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/043",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "urbostru",
+      "response": "urbostru\n\nNote: The correct Esperanto word for \"mayor\" derived from \"urbo\" (city) and the affix \"-estr-\" is **urbostru**, which is a noun in the form of",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/044",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "junulo",
+      "response": "junulo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/045",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "alta malo",
+      "response": "alta malo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/046",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "irire",
+      "response": "irire",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/047",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "granda-malgranda",
+      "response": "granda-malgranda",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/048",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "kanti-ek-o",
+      "response": "kanti-ek-o",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/049",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "ir-e",
+      "response": "ir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e\nir-e",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/050",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "homoar",
+      "response": "homoar",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/051",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "bona-malbena",
+      "response": "bona-malbena",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/052",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "bicikloist",
+      "response": "bicikloist",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/053",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "purig",
+      "response": "purig",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/054",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "redoni",
+      "response": "redoni",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/055",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "avo-pra-jo",
+      "response": "avo-pra-jo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/056",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "ruĝiĝo",
+      "response": "ruĝiĝo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/057",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "distribui",
+      "response": "distribui",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/058",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "bonaĵo",
+      "response": "bonaĵo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/059",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "ŝipestr",
+      "response": "ŝipestr\n\nNote: The word \"ŝipestr\" is not a standard Esperanto word. Let's analyze the request carefully.\n\nWe are to form a word from:\n- Root: \"ŝipo\" (ship)\n- Aff",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/060",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "fratojge",
+      "response": "fratojge\nfratojge\nfratojge\nfratojge\nfratojge\nfratojge\nfratojge\nfratojge\nfratojge\nfratoj",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/061",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "longa-mal",
+      "response": "longa-mal  \nlonga-mal  \nlonga-mal  \nlonga-mal  \nlonga-mal  \nlonga-mal  \nlonga-mal  \nlonga-mal  \nlonga-mal  \nlonga-m",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/062",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "domet",
+      "response": "domet",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/063",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "rivero_et",
+      "response": "rivero_et\n\nWait, that doesn't make sense. Let's think about this.\n\nWe're given:\n- Root: \"rivero\" (river)\n- Affix: \"-et-\" (meaning brook, small river)\n\nWe",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/064",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "kanti-ad",
+      "response": "kanti-ad\nkanti-ad\nkanti-ad\nkanti-ad\nkanti-ad\nkanti-ad\nkanti-ad\nkanti-ad\nkanti-ad\nkanti-ad\nkanti-ad\nkanti-ad",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/065",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "instruisto",
+      "response": "instruisto",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/066",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "labori-em",
+      "response": "labori-em",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/067",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "Eŭropano",
+      "response": "Eŭropano",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/068",
+      "task": "word-building",
+      "correct": true,
+      "extracted": "novaĵo",
+      "response": "novaĵo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/069",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "bonaĵo",
+      "response": "bonaĵo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/070",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "irforo",
+      "response": "irforo",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/071",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "kompreni-mis",
+      "response": "kompreni-mis\nkompreni-mis\nkompreni-mis\nkompreni-mis\nkompreni-mis\nkompreni-mis\nkompreni-mis",
+      "error": null
+    },
+    {
+      "id": "v0.1/word-building/072",
+      "task": "word-building",
+      "correct": false,
+      "extracted": "kato-ino",
+      "response": "kato-ino",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/001",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "aĉetis",
+      "response": "aĉetis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/002",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "resti ĉe la kondiĉo de \"resti\" (stare) estas \"resti\" en Esperanto. La kondiĉo de la verbo \"resti\" estas \"resti\" en Esper",
+      "response": "resti ĉe la kondiĉo de \"resti\" (stare) estas \"resti\" en Esperanto. La kondiĉo de la verbo \"resti\" estas \"resti\" en Esper",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/003",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "dormiĝi",
+      "response": "dormiĝi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/004",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "loĝi ĉe la kondiĉi (to live, reside)",
+      "response": "loĝi ĉe la kondiĉi (to live, reside)",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/005",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "legi→legis (past tense)",
+      "response": "legi→legis (past tense)",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/006",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "skribiĝi",
+      "response": "skribiĝi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/007",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "vidita",
+      "response": "vidita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/008",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "leganta",
+      "response": "leganta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/009",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "legi",
+      "response": "legi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/010",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "trinkis",
+      "response": "trinkis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/011",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "parolis",
+      "response": "parolis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/012",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "aŭdita",
+      "response": "aŭdita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/013",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "fluganta",
+      "response": "fluganta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/014",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "dormiĝus",
+      "response": "dormiĝus",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/015",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "loĝanta",
+      "response": "loĝanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/016",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "loĝas",
+      "response": "loĝas",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/017",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "troviĝis",
+      "response": "troviĝis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/018",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "veniĝo",
+      "response": "veniĝo",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/019",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "fari",
+      "response": "fari",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/020",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "troviĝis",
+      "response": "troviĝis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/021",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "estis",
+      "response": "estis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/022",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "legita",
+      "response": "legita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/023",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "amita",
+      "response": "amita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/024",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "skribos",
+      "response": "skribos",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/025",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "preni",
+      "response": "preni\npreni\npreni\npreni\npreni\npreni\npreni\npreni\npreni\npreni\npreni\npreni",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/026",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "kanti",
+      "response": "kanti",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/027",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "faranta",
+      "response": "faranta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/028",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "resti",
+      "response": "resti",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/029",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "parolis",
+      "response": "parolis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/030",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "kanti",
+      "response": "kanti",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/031",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "vendiĝinta",
+      "response": "vendiĝinta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/032",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "vidi",
+      "response": "vidi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/033",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "ludu",
+      "response": "ludu",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/034",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "vendiĝinta",
+      "response": "vendiĝinta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/035",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "fluganta",
+      "response": "fluganta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/036",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "aŭdiĝos",
+      "response": "aŭdiĝos",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/037",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "aĉetos",
+      "response": "aĉetos",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/038",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "vidanta",
+      "response": "vidanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/039",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "troviĝis",
+      "response": "troviĝis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/040",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "skribante",
+      "response": "skribante",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/041",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "amante",
+      "response": "amante",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/042",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "aŭdanta",
+      "response": "aŭdanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/043",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "aĉetita",
+      "response": "aĉetita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/044",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "trovi",
+      "response": "trovi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/045",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "manĝiĝi",
+      "response": "manĝiĝi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/046",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "amiĝas",
+      "response": "amiĝas",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/047",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "vendi (to sell) – the conditional form is **vendus**.",
+      "response": "vendi (to sell) – the conditional form is **vendus**.",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/048",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "aŭdanta",
+      "response": "aŭdanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/049",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "dormanta",
+      "response": "dormanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/050",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "kanti→kansenti",
+      "response": "kanti→kansenti",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/051",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "manĝis",
+      "response": "manĝis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/052",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "aĉetis",
+      "response": "aĉetis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/053",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "legi",
+      "response": "legi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/054",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "preniĝanta",
+      "response": "preniĝanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/055",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "skribas",
+      "response": "skribas",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/056",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "dormis",
+      "response": "dormis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/057",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "troviĝis",
+      "response": "troviĝis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/058",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "nagi",
+      "response": "nagi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/059",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "aĉetita",
+      "response": "aĉetita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/060",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "paroli→parolis (to speak)",
+      "response": "paroli→parolis (to speak)",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/061",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "flui",
+      "response": "flui",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/062",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "manĝita",
+      "response": "manĝita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/063",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "dormiĝi",
+      "response": "dormiĝi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/064",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "amante",
+      "response": "amante",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/065",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "vidi→vidis",
+      "response": "vidi→vidis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/066",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "kuriĝis",
+      "response": "kuriĝis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/067",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "trinkos",
+      "response": "trinkos",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/068",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "skribanta",
+      "response": "skribanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/069",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "ludis",
+      "response": "ludis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/070",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "vidi (to see)",
+      "response": "vidi (to see)",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/071",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "veniĝi",
+      "response": "veniĝi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/072",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "venis",
+      "response": "venis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/073",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "manĝos",
+      "response": "manĝos",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/074",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "laboras",
+      "response": "laboras",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/075",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "ludos",
+      "response": "ludos",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/076",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "prenos",
+      "response": "prenos",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/077",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "labori (to work) – the imperative form is **labori** (to work) – the imperative form is **labori** (to work) – the imperative form is **labori** (to work",
+      "response": "labori (to work) – the imperative form is **labori** (to work) – the imperative form is **labori** (to work) – the imperative form is **labori** (to work",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/078",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "kursis",
+      "response": "kursis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/079",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "fariĝinta",
+      "response": "fariĝinta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/080",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "labori labori (to work)",
+      "response": "labori labori (to work)",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/081",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "trinkis",
+      "response": "trinkis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/082",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "ludanta",
+      "response": "ludanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/083",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "iru",
+      "response": "iru",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/084",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "ludanta",
+      "response": "ludanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/085",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "kantiĝanta",
+      "response": "kantiĝanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/086",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "troviĝi",
+      "response": " troviĝi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/087",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "nagi",
+      "response": "nagi",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/088",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "fari",
+      "response": "fari",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/089",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "aĉetita",
+      "response": "aĉetita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/090",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "nagis",
+      "response": "nagis",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/091",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "trinkita",
+      "response": "trinkita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/092",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "fundita",
+      "response": "fundita",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/093",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "parolanta",
+      "response": "parolanta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/094",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "iras",
+      "response": "iras",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/095",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "flui",
+      "response": "flui",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/096",
+      "task": "conjugation",
+      "correct": true,
+      "extracted": "nagos",
+      "response": "nagos",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/097",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "laboranta",
+      "response": "laboranta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/098",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "amiĝos",
+      "response": "amiĝos",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/099",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "vendiĝinta",
+      "response": "vendiĝinta",
+      "error": null
+    },
+    {
+      "id": "v0.1/conjugation/100",
+      "task": "conjugation",
+      "correct": false,
+      "extracted": "veniĝi",
+      "response": "veniĝi",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/001",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "du mil unucent ducent nuna cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu",
+      "response": "du mil unucent ducent nuna cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu cent unu",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/001",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "100503",
+      "response": "100503",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/002",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "o8900",
+      "response": "o8900",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/002",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "9000",
+      "response": "9000",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/003",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "unu mil sekvenco de du mil",
+      "response": "unu mil sekvenco de du mil\nunu mil sekvenco de du mil\nunu mil sekvenco de du mil\nunu mil sekvenco de du mil\nunu mil sekvenco de du mil\nunu mil se",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/003",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "61",
+      "response": "61",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/004",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "kvinmilio kvincent unu",
+      "response": "kvinmilio kvincent unu",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/004",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "51992",
+      "response": "51992",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/005",
+      "task": "number-write",
+      "correct": true,
+      "extracted": "tri",
+      "response": "tri\ndu\nmil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/005",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "103001",
+      "response": "103001",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/006",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "trecentduk mil",
+      "response": "trecentduk mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/006",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "963",
+      "response": "963",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/007",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "trecent kvindek tri mil",
+      "response": "trecent kvindek tri mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/007",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "100597",
+      "response": "100597",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/008",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "kvardek du mil",
+      "response": "kvardek du mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/008",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "0100079",
+      "response": "0100079",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/009",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "setkun",
+      "response": "setkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/009",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "1200",
+      "response": "1200",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/010",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "setcentkun",
+      "response": "setcentkun\nsetcentkun\nsetcentkun\nsetcentkun\nsetcentkun\nsetcentkun\nsetcentkun\nsetcentkun\nsetcentkun\nsetcentk",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/010",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "2120",
+      "response": "2120",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/011",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "kvar mil sekvenco sesdek sesdek",
+      "response": "kvar mil sekvenco sesdek sesdek",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/011",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "2975",
+      "response": "2975",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/012",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "nuna mil 9400",
+      "response": "nuna mil 9400",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/012",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "10979",
+      "response": "10979",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/013",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "sescent unucent sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek ses",
+      "response": "sescent unucent sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek sesdek ses",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/013",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "131",
+      "response": "131",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/014",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "treco mil tri cent dudek",
+      "response": "treco mil tri cent dudek",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/014",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "508",
+      "response": "508",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/015",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "59 en Esperanto estas: \"59\" en Esperanto estas: \"59\" en Esperanto estas: \"59\" en Esperanto estas: \"59\" en Esperanto estas: \"59\" en",
+      "response": "59 en Esperanto estas: \"59\" en Esperanto estas: \"59\" en Esperanto estas: \"59\" en Esperanto estas: \"59\" en Esperanto estas: \"59\" en",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/015",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "3000937",
+      "response": "3000937",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/016",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "75 = setenta kaj kvin",
+      "response": "75 = setenta kaj kvin  \n75 = setenta kaj kvin  \n75 = setenta kaj kvin  \n75 = setenta kaj kvin  \n75 = setenta kaj kvin  \n75 =",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/016",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "41",
+      "response": "41",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/017",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "vinteg",
+      "response": "vinteg\ndu mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/017",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "2089",
+      "response": "2089",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/018",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "unucent unucent du mil",
+      "response": "unucent unucent du mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/018",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "4129",
+      "response": "4129",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/019",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "o80",
+      "response": "o80",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/019",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "1005",
+      "response": "1005",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/020",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "kvarcent",
+      "response": "kvarcent\ndudek\ndu mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/020",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "30",
+      "response": "30",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/021",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "setcentkun du mil",
+      "response": "setcentkun du mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/021",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "30003404",
+      "response": "30003404",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/022",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "du mil kvin cent du dek",
+      "response": "du mil kvin cent du dek",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/022",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "9631",
+      "response": "9631",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/023",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "kvar mil tricent dudek",
+      "response": "kvar mil tricent dudek",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/023",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "100000000",
+      "response": "100000000",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/024",
+      "task": "number-write",
+      "correct": true,
+      "extracted": "kvar mil",
+      "response": "kvar mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/024",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "1692",
+      "response": "1692",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/025",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "du mil sekvenco",
+      "response": "du mil sekvenco\ndu mil sekvenco\ndu mil sekvenco\ndu mil sekvenco\ndu mil sekvenco\ndu mil sekvenco\ndu mil sekvenco\ndu mil sekvenco",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/025",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "51203",
+      "response": "51203",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/026",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "98 en Esperanto estas \"nuna cent\" kaj \"dudek\". Tamen, por 98, la korpo estas \"nuna cent\" kaj \"dudek\". La korpo estas \"n",
+      "response": "98 en Esperanto estas \"nuna cent\" kaj \"dudek\". Tamen, por 98, la korpo estas \"nuna cent\" kaj \"dudek\". La korpo estas \"n",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/026",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "10000603",
+      "response": "10000603",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/027",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "1758 en Esperanto estas:",
+      "response": "1758 en Esperanto estas:  \n**\"sekvenc\"** (1758)  \n**\"du mil\"** (1000)  \n**\"tricent\"** (300",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/027",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "1245",
+      "response": "1245",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/028",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "kvincent",
+      "response": "kvincent\ndu mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/028",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "305",
+      "response": "305",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/029",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "unu mil 813",
+      "response": "unu mil 813",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/029",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "1000000",
+      "response": "1000000",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/030",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "sesdekunununununununununununununununununununununununununununununununununununununununununununununun",
+      "response": "sesdekunununununununununununununununununununununununununununununununununununununununununununununun",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/030",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "1000300131",
+      "response": "1000 300 131",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/031",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "kvin mil tri cent dudek",
+      "response": "kvin mil tri cent dudek",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/031",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "3200",
+      "response": "3200",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/032",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "sescent unu mil sekvenco kaj du cento",
+      "response": "sescent unu mil sekvenco kaj du cento",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/032",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "50",
+      "response": "50",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/033",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "sescent",
+      "response": "sescent\ndu mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/033",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "1953",
+      "response": "1953",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/034",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "du mil tri cent dudek",
+      "response": "du mil tri cent dudek",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/034",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "104",
+      "response": "104",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/035",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "tri-cent-dudek-unu",
+      "response": "tri-cent-dudek-unu",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/035",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "1995",
+      "response": "1995",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/036",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "nuna mil 9100",
+      "response": "nuna mil 9100",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/036",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "5001333",
+      "response": "5001333",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/037",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "centunuaj",
+      "response": "centunuaj\ndudek\ntricent\ndu mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/037",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "4000049",
+      "response": "4000049",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/038",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "du mil ducent duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon",
+      "response": "du mil ducent duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon duon",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/038",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "19686",
+      "response": "19686",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/039",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "du mil",
+      "response": "du mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/039",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "1095",
+      "response": "1095",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/040",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "unu centunu tricent dudek unu mil",
+      "response": "unu centunu tricent dudek unu mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/040",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "2139",
+      "response": "2139",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/041",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "sesdekunununununununununununununununununununununununununununununununununununununununununununununun",
+      "response": "sesdekunununununununununununununununununununununununununununununununununununununununununununununun",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/041",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "19",
+      "response": "19",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/042",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "unucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucent",
+      "response": "unucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucentunucent",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/042",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "9200",
+      "response": "9200",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/043",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "setkun",
+      "response": "setkun\ndudek\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun\nsetkun",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/043",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "01234",
+      "response": "01234",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/044",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "trecoj cento tri du mil",
+      "response": "trecoj cento tri du mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/044",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "1000300",
+      "response": "1000300",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/045",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "1392 en Esperanto estas:",
+      "response": "1392 en Esperanto estas:  \n**trecentdukdu mil**.",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/045",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "1000049",
+      "response": "1000049",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/046",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "846 en Esperanto estas:",
+      "response": "846 en Esperanto estas:  \n**\"846\"** en Esperanto estas:  \n**\"846\"** en Esperanto estas:  \n**\"846\"** en Esperanto estas:",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/046",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "5160",
+      "response": "5160",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/047",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "tricent dudek tri mil",
+      "response": "tricent dudek tri mil",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/047",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "40465",
+      "response": "40465",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/048",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "seksto mil sekvenco kaj kvar",
+      "response": "seksto mil sekvenco kaj kvar",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/048",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "49",
+      "response": "49",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/049",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "okcanta mil okcanta du tricent dudek",
+      "response": "okcanta mil okcanta du tricent dudek",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/049",
+      "task": "number-read",
+      "correct": false,
+      "extracted": "010408",
+      "response": "010408",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-write/050",
+      "task": "number-write",
+      "correct": false,
+      "extracted": "90 en Esperanto estas \"dudek\".",
+      "response": "90 en Esperanto estas \"dudek\".",
+      "error": null
+    },
+    {
+      "id": "v0.1/number-read/050",
+      "task": "number-read",
+      "correct": true,
+      "extracted": "1269",
+      "response": "1269",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,1528 @@
+id,task,prompt,gold_answer,reviewer,verdict (ok / wrong / ambiguous),comment
+v0.1/correlative-write/001,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""the whole amount"" (an amount word). Answer with the word only.",ĉiom,,,
+v0.1/correlative-write/002,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""where"" (a place word). Answer with the word only.",kie,,,
+v0.1/correlative-write/003,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""somewhere"" (a place word). Answer with the word only.",ie,,,
+v0.1/correlative-write/004,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""everyone's"" (a possession word). Answer with the word only.",ĉies,,,
+v0.1/correlative-write/005,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""everyone / each one"" (an individual word). Answer with the word only.",ĉiu,,,
+v0.1/correlative-write/006,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""in no way"" (a manner word). Answer with the word only.",neniel,,,
+v0.1/correlative-write/007,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""no one's"" (a possession word). Answer with the word only.",nenies,,,
+v0.1/correlative-write/008,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""sometime / ever"" (a time word). Answer with the word only.",iam,,,
+v0.1/correlative-write/009,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""what"" (a thing word). Answer with the word only.",kio,,,
+v0.1/correlative-write/010,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""someone's"" (a possession word). Answer with the word only.",ies,,,
+v0.1/correlative-write/011,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""everywhere"" (a place word). Answer with the word only.",ĉie,,,
+v0.1/correlative-write/012,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""when"" (a time word). Answer with the word only.",kiam,,,
+v0.1/correlative-write/013,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""always"" (a time word). Answer with the word only.",ĉiam,,,
+v0.1/correlative-write/014,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""for some reason"" (a reason word). Answer with the word only.",ial,,,
+v0.1/correlative-write/015,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""then"" (a time word). Answer with the word only.",tiam,,,
+v0.1/correlative-write/016,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""in every way"" (a manner word). Answer with the word only.",ĉiel,,,
+v0.1/correlative-write/017,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""there"" (a place word). Answer with the word only.",tie,,,
+v0.1/correlative-write/018,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""somehow"" (a manner word). Answer with the word only.",iel,,,
+v0.1/correlative-write/019,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""in that way / so"" (a manner word). Answer with the word only.",tiel,,,
+v0.1/correlative-write/020,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""how"" (a manner word). Answer with the word only.",kiel,,,
+v0.1/correlative-write/021,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""who / which one"" (an individual word). Answer with the word only.",kiu,,,
+v0.1/correlative-write/022,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""that (thing)"" (a thing word). Answer with the word only.",tio,,,
+v0.1/correlative-write/023,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""someone"" (an individual word). Answer with the word only.",iu,,,
+v0.1/correlative-write/024,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""no kind of"" (a quality word). Answer with the word only.",nenia,,,
+v0.1/correlative-write/025,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""everything"" (a thing word). Answer with the word only.",ĉio,,,
+v0.1/correlative-write/026,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""that kind of / such"" (a quality word). Answer with the word only.",tia,,,
+v0.1/correlative-write/027,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""every kind of"" (a quality word). Answer with the word only.",ĉia,,,
+v0.1/correlative-write/028,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""why"" (a reason word). Answer with the word only.",kial,,,
+v0.1/correlative-write/029,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""that one"" (an individual word). Answer with the word only.",tiu,,,
+v0.1/correlative-write/030,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""that much / that many"" (an amount word). Answer with the word only.",tiom,,,
+v0.1/correlative-write/031,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""some kind of"" (a quality word). Answer with the word only.",ia,,,
+v0.1/correlative-write/032,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""how much / how many"" (an amount word). Answer with the word only.",kiom,,,
+v0.1/correlative-write/033,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""what kind of"" (a quality word). Answer with the word only.",kia,,,
+v0.1/correlative-write/034,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""some amount / a little"" (an amount word). Answer with the word only.",iom,,,
+v0.1/correlative-write/035,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""something"" (a thing word). Answer with the word only.",io,,,
+v0.1/correlative-write/036,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""that one's"" (a possession word). Answer with the word only.",ties,,,
+v0.1/correlative-write/037,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""nothing"" (a thing word). Answer with the word only.",nenio,,,
+v0.1/correlative-write/038,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""for every reason"" (a reason word). Answer with the word only.",ĉial,,,
+v0.1/correlative-write/039,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""no one"" (an individual word). Answer with the word only.",neniu,,,
+v0.1/correlative-write/040,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""for that reason"" (a reason word). Answer with the word only.",tial,,,
+v0.1/correlative-write/041,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""whose"" (a possession word). Answer with the word only.",kies,,,
+v0.1/correlative-write/042,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""for no reason"" (a reason word). Answer with the word only.",nenial,,,
+v0.1/correlative-write/043,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""never"" (a time word). Answer with the word only.",neniam,,,
+v0.1/correlative-write/044,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""none / no amount"" (an amount word). Answer with the word only.",neniom,,,
+v0.1/correlative-write/045,correlative-write,"Esperanto correlative words are built from a prefix (ki-, ti-, i-, ĉi-, neni-) and a suffix (-u, -o, -a, -es, -e, -al, -el, -am, -om). Write the single Esperanto correlative that means ""nowhere"" (a place word). Answer with the word only.",nenie,,,
+v0.1/correlative-meaning/001,correlative-meaning,"What does the Esperanto word ""tiu"" mean?
+A) then
+B) how
+C) someone
+D) that one
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/002,correlative-meaning,"What does the Esperanto word ""kiel"" mean?
+A) that kind of / such
+B) how much / how many
+C) how
+D) somehow
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/003,correlative-meaning,"What does the Esperanto word ""nenio"" mean?
+A) nothing
+B) everything
+C) how much / how many
+D) no kind of
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/004,correlative-meaning,"What does the Esperanto word ""ĉie"" mean?
+A) there
+B) everyone / each one
+C) everywhere
+D) some kind of
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/005,correlative-meaning,"What does the Esperanto word ""neniu"" mean?
+A) that kind of / such
+B) no one
+C) in no way
+D) that one
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/006,correlative-meaning,"What does the Esperanto word ""ĉies"" mean?
+A) some amount / a little
+B) someone's
+C) always
+D) everyone's
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/007,correlative-meaning,"What does the Esperanto word ""tio"" mean?
+A) that (thing)
+B) how much / how many
+C) in that way / so
+D) everything
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/008,correlative-meaning,"What does the Esperanto word ""neniel"" mean?
+A) how
+B) in no way
+C) someone
+D) none / no amount
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/009,correlative-meaning,"What does the Esperanto word ""tiel"" mean?
+A) in every way
+B) then
+C) in that way / so
+D) never
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/010,correlative-meaning,"What does the Esperanto word ""iom"" mean?
+A) what kind of
+B) some amount / a little
+C) some kind of
+D) how much / how many
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/011,correlative-meaning,"What does the Esperanto word ""tiu"" mean?
+A) that one
+B) nothing
+C) no one
+D) that (thing)
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/012,correlative-meaning,"What does the Esperanto word ""nenie"" mean?
+A) nowhere
+B) no kind of
+C) there
+D) always
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/013,correlative-meaning,"What does the Esperanto word ""kial"" mean?
+A) for no reason
+B) why
+C) every kind of
+D) what kind of
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/014,correlative-meaning,"What does the Esperanto word ""ĉiel"" mean?
+A) somehow
+B) in every way
+C) everyone / each one
+D) that kind of / such
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/015,correlative-meaning,"What does the Esperanto word ""tiu"" mean?
+A) everyone / each one
+B) that one
+C) no kind of
+D) there
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/016,correlative-meaning,"What does the Esperanto word ""kie"" mean?
+A) who / which one
+B) everywhere
+C) that (thing)
+D) where
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/017,correlative-meaning,"What does the Esperanto word ""ĉio"" mean?
+A) for some reason
+B) every kind of
+C) nothing
+D) everything
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/018,correlative-meaning,"What does the Esperanto word ""tiam"" mean?
+A) then
+B) that kind of / such
+C) someone's
+D) never
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/019,correlative-meaning,"What does the Esperanto word ""kial"" mean?
+A) how
+B) someone
+C) why
+D) for no reason
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/020,correlative-meaning,"What does the Esperanto word ""kie"" mean?
+A) who / which one
+B) that much / that many
+C) somewhere
+D) where
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/021,correlative-meaning,"What does the Esperanto word ""nenies"" mean?
+A) what
+B) whose
+C) nowhere
+D) no one's
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/022,correlative-meaning,"What does the Esperanto word ""iam"" mean?
+A) everyone / each one
+B) when
+C) somewhere
+D) sometime / ever
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/023,correlative-meaning,"What does the Esperanto word ""ie"" mean?
+A) something
+B) in no way
+C) nowhere
+D) somewhere
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/024,correlative-meaning,"What does the Esperanto word ""ĉie"" mean?
+A) everywhere
+B) nowhere
+C) everyone's
+D) in that way / so
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/025,correlative-meaning,"What does the Esperanto word ""kio"" mean?
+A) whose
+B) nothing
+C) what
+D) that one
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/026,correlative-meaning,"What does the Esperanto word ""ĉies"" mean?
+A) how
+B) whose
+C) everywhere
+D) everyone's
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/027,correlative-meaning,"What does the Esperanto word ""neniam"" mean?
+A) never
+B) some kind of
+C) sometime / ever
+D) none / no amount
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/028,correlative-meaning,"What does the Esperanto word ""iel"" mean?
+A) somehow
+B) in that way / so
+C) some kind of
+D) when
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/029,correlative-meaning,"What does the Esperanto word ""kia"" mean?
+A) what kind of
+B) no kind of
+C) how much / how many
+D) then
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/030,correlative-meaning,"What does the Esperanto word ""neniel"" mean?
+A) somehow
+B) something
+C) never
+D) in no way
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/031,correlative-meaning,"What does the Esperanto word ""kie"" mean?
+A) somehow
+B) how
+C) somewhere
+D) where
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/032,correlative-meaning,"What does the Esperanto word ""nenio"" mean?
+A) no kind of
+B) something
+C) somehow
+D) nothing
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/033,correlative-meaning,"What does the Esperanto word ""io"" mean?
+A) sometime / ever
+B) that (thing)
+C) something
+D) the whole amount
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/034,correlative-meaning,"What does the Esperanto word ""ĉial"" mean?
+A) why
+B) everything
+C) for every reason
+D) someone
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/035,correlative-meaning,"What does the Esperanto word ""ĉiu"" mean?
+A) everyone / each one
+B) what
+C) everywhere
+D) someone
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/036,correlative-meaning,"What does the Esperanto word ""kiom"" mean?
+A) why
+B) that kind of / such
+C) how much / how many
+D) that much / that many
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/037,correlative-meaning,"What does the Esperanto word ""tiel"" mean?
+A) then
+B) how
+C) for no reason
+D) in that way / so
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/038,correlative-meaning,"What does the Esperanto word ""ies"" mean?
+A) everything
+B) someone
+C) someone's
+D) whose
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/039,correlative-meaning,"What does the Esperanto word ""ĉial"" mean?
+A) sometime / ever
+B) for every reason
+C) for some reason
+D) everywhere
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/040,correlative-meaning,"What does the Esperanto word ""iel"" mean?
+A) nowhere
+B) some amount / a little
+C) somehow
+D) how
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/041,correlative-meaning,"What does the Esperanto word ""kiom"" mean?
+A) the whole amount
+B) for no reason
+C) who / which one
+D) how much / how many
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/042,correlative-meaning,"What does the Esperanto word ""neniu"" mean?
+A) everyone / each one
+B) nowhere
+C) no one
+D) in that way / so
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/043,correlative-meaning,"What does the Esperanto word ""io"" mean?
+A) nowhere
+B) something
+C) somewhere
+D) everything
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/044,correlative-meaning,"What does the Esperanto word ""neniam"" mean?
+A) never
+B) what
+C) always
+D) nothing
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/045,correlative-meaning,"What does the Esperanto word ""ie"" mean?
+A) some kind of
+B) somewhere
+C) how
+D) nowhere
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/046,correlative-meaning,"What does the Esperanto word ""neniel"" mean?
+A) no one
+B) everything
+C) in no way
+D) how
+Answer with a single letter.",C,,,
+v0.1/correlative-meaning/047,correlative-meaning,"What does the Esperanto word ""kies"" mean?
+A) someone
+B) that one's
+C) how much / how many
+D) whose
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/048,correlative-meaning,"What does the Esperanto word ""nenial"" mean?
+A) none / no amount
+B) for no reason
+C) then
+D) for that reason
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/049,correlative-meaning,"What does the Esperanto word ""nenies"" mean?
+A) no one's
+B) no kind of
+C) what
+D) everyone's
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/050,correlative-meaning,"What does the Esperanto word ""tiom"" mean?
+A) that much / that many
+B) the whole amount
+C) that one
+D) who / which one
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/051,correlative-meaning,"What does the Esperanto word ""neniu"" mean?
+A) whose
+B) no one
+C) none / no amount
+D) everyone / each one
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/052,correlative-meaning,"What does the Esperanto word ""nenio"" mean?
+A) nothing
+B) someone's
+C) something
+D) in no way
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/053,correlative-meaning,"What does the Esperanto word ""tiu"" mean?
+A) that one
+B) where
+C) that (thing)
+D) no one
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/054,correlative-meaning,"What does the Esperanto word ""kio"" mean?
+A) that one's
+B) something
+C) who / which one
+D) what
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/055,correlative-meaning,"What does the Esperanto word ""ĉiu"" mean?
+A) everyone / each one
+B) that kind of / such
+C) everywhere
+D) someone
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/056,correlative-meaning,"What does the Esperanto word ""ia"" mean?
+A) some kind of
+B) everything
+C) for some reason
+D) that kind of / such
+Answer with a single letter.",A,,,
+v0.1/correlative-meaning/057,correlative-meaning,"What does the Esperanto word ""neniel"" mean?
+A) somehow
+B) no one's
+C) the whole amount
+D) in no way
+Answer with a single letter.",D,,,
+v0.1/correlative-meaning/058,correlative-meaning,"What does the Esperanto word ""tiam"" mean?
+A) somehow
+B) then
+C) that one's
+D) always
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/059,correlative-meaning,"What does the Esperanto word ""ies"" mean?
+A) whose
+B) someone's
+C) some kind of
+D) everyone / each one
+Answer with a single letter.",B,,,
+v0.1/correlative-meaning/060,correlative-meaning,"What does the Esperanto word ""tia"" mean?
+A) some kind of
+B) never
+C) for that reason
+D) that kind of / such
+Answer with a single letter.",D,,,
+v0.1/accusative/001,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The man sees the big tree.
+Esperanto: La granda arbo vidas la viro.
+Answer with the corrected Esperanto sentence only.",La grandan arbon vidas la viro.,,,
+v0.1/accusative/002,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The birds see the new letter.
+Esperanto: La birdoj vidas la nova letero.
+Answer with the corrected Esperanto sentence only.",La birdoj vidas la novan leteron.,,,
+v0.1/accusative/003,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The women eat the loaves of bread.
+Esperanto: La virinoj manĝas la panoj.
+Answer with the corrected Esperanto sentence only.",La virinoj manĝas la panojn.,,,
+v0.1/accusative/004,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The dog eats the apples in the house.
+Esperanto: La hundo manĝas la pomoj en la domo.
+Answer with the corrected Esperanto sentence only.",La hundo manĝas la pomojn en la domo.,,,
+v0.1/accusative/005,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The girl finds the tree.
+Esperanto: La arbo trovas la knabino.
+Answer with the corrected Esperanto sentence only.",La arbon trovas la knabino.,,,
+v0.1/accusative/006,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The girls eat the apple in the garden.
+Esperanto: La knabinoj manĝas la pomo en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La knabinoj manĝas la pomon en la ĝardeno.,,,
+v0.1/accusative/007,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The new boys find the cats.
+Esperanto: La katoj trovas la novaj knaboj.
+Answer with the corrected Esperanto sentence only.",La katojn trovas la novaj knaboj.,,,
+v0.1/accusative/008,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The cats eat the loaf of bread in the room.
+Esperanto: La katoj manĝas la pano en la ĉambro.
+Answer with the corrected Esperanto sentence only.",La katoj manĝas la panon en la ĉambro.,,,
+v0.1/accusative/009,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The good girl sees the cat.
+Esperanto: La bona knabino vidas la kato.
+Answer with the corrected Esperanto sentence only.",La bona knabino vidas la katon.,,,
+v0.1/accusative/010,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big bird loves the good girls in the room.
+Esperanto: La granda birdo amas la bonaj knabinoj en la ĉambro.
+Answer with the corrected Esperanto sentence only.",La granda birdo amas la bonajn knabinojn en la ĉambro.,,,
+v0.1/accusative/011,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The blue dog loves the old cat.
+Esperanto: La blua hundo amas la malnova kato.
+Answer with the corrected Esperanto sentence only.",La blua hundo amas la malnovan katon.,,,
+v0.1/accusative/012,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The old girls love the man in the garden.
+Esperanto: La viro amas la malnovaj knabinoj en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La viron amas la malnovaj knabinoj en la ĝardeno.,,,
+v0.1/accusative/013,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The beautiful girls read the old book.
+Esperanto: La belaj knabinoj legas la malnova libro.
+Answer with the corrected Esperanto sentence only.",La belaj knabinoj legas la malnovan libron.,,,
+v0.1/accusative/014,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The dog finds the old apples.
+Esperanto: La hundo trovas la malnovaj pomoj.
+Answer with the corrected Esperanto sentence only.",La hundo trovas la malnovajn pomojn.,,,
+v0.1/accusative/015,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The blue child reads the big letter.
+Esperanto: La blua infano legas la granda letero.
+Answer with the corrected Esperanto sentence only.",La blua infano legas la grandan leteron.,,,
+v0.1/accusative/016,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The girls buy the tree in the house.
+Esperanto: La knabinoj aĉetas la arbo en la domo.
+Answer with the corrected Esperanto sentence only.",La knabinoj aĉetas la arbon en la domo.,,,
+v0.1/accusative/017,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The good birds have the old table.
+Esperanto: La bonaj birdoj havas la malnova tablo.
+Answer with the corrected Esperanto sentence only.",La bonaj birdoj havas la malnovan tablon.,,,
+v0.1/accusative/018,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big cats buy the tree.
+Esperanto: La grandaj katoj aĉetas la arbo.
+Answer with the corrected Esperanto sentence only.",La grandaj katoj aĉetas la arbon.,,,
+v0.1/accusative/019,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The old bird loves the old child.
+Esperanto: La malnova birdo amas la malnova infano.
+Answer with the corrected Esperanto sentence only.",La malnova birdo amas la malnovan infanon.,,,
+v0.1/accusative/020,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The cat buys the new houses.
+Esperanto: La novaj domoj aĉetas la kato.
+Answer with the corrected Esperanto sentence only.",La novajn domojn aĉetas la kato.,,,
+v0.1/accusative/021,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The cat finds the new girl.
+Esperanto: La kato trovas la nova knabino.
+Answer with the corrected Esperanto sentence only.",La kato trovas la novan knabinon.,,,
+v0.1/accusative/022,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The girl sees the apple in the house.
+Esperanto: La knabino vidas la pomo en la domo.
+Answer with the corrected Esperanto sentence only.",La knabino vidas la pomon en la domo.,,,
+v0.1/accusative/023,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The girl finds the big woman.
+Esperanto: La granda virino trovas la knabino.
+Answer with the corrected Esperanto sentence only.",La grandan virinon trovas la knabino.,,,
+v0.1/accusative/024,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The old dog sees the table.
+Esperanto: La tablo vidas la malnova hundo.
+Answer with the corrected Esperanto sentence only.",La tablon vidas la malnova hundo.,,,
+v0.1/accusative/025,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The small dog eats the loaves of bread.
+Esperanto: La panoj manĝas la malgranda hundo.
+Answer with the corrected Esperanto sentence only.",La panojn manĝas la malgranda hundo.,,,
+v0.1/accusative/026,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The woman has the girls on the table.
+Esperanto: La virino havas la knabinoj sur la tablo.
+Answer with the corrected Esperanto sentence only.",La virino havas la knabinojn sur la tablo.,,,
+v0.1/accusative/027,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The blue men buy the loaf of bread.
+Esperanto: La bluaj viroj aĉetas la pano.
+Answer with the corrected Esperanto sentence only.",La bluaj viroj aĉetas la panon.,,,
+v0.1/accusative/028,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The girls find the big letter.
+Esperanto: La knabinoj trovas la granda letero.
+Answer with the corrected Esperanto sentence only.",La knabinoj trovas la grandan leteron.,,,
+v0.1/accusative/029,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The cat buys the flowers.
+Esperanto: La kato aĉetas la floroj.
+Answer with the corrected Esperanto sentence only.",La kato aĉetas la florojn.,,,
+v0.1/accusative/030,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The men find the boy on the table.
+Esperanto: La viroj trovas la knabo sur la tablo.
+Answer with the corrected Esperanto sentence only.",La viroj trovas la knabon sur la tablo.,,,
+v0.1/accusative/031,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The woman has the trees.
+Esperanto: La arboj havas la virino.
+Answer with the corrected Esperanto sentence only.",La arbojn havas la virino.,,,
+v0.1/accusative/032,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The small woman sees the cat in the room.
+Esperanto: La kato vidas la malgranda virino en la ĉambro.
+Answer with the corrected Esperanto sentence only.",La katon vidas la malgranda virino en la ĉambro.,,,
+v0.1/accusative/033,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big girl eats the loaves of bread in the room.
+Esperanto: La granda knabino manĝas la panoj en la ĉambro.
+Answer with the corrected Esperanto sentence only.",La granda knabino manĝas la panojn en la ĉambro.,,,
+v0.1/accusative/034,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The bird eats the apple.
+Esperanto: La birdo manĝas la pomo.
+Answer with the corrected Esperanto sentence only.",La birdo manĝas la pomon.,,,
+v0.1/accusative/035,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big boy loves the new cats.
+Esperanto: La granda knabo amas la novaj katoj.
+Answer with the corrected Esperanto sentence only.",La granda knabo amas la novajn katojn.,,,
+v0.1/accusative/036,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The child buys the flowers on the table.
+Esperanto: La floroj aĉetas la infano sur la tablo.
+Answer with the corrected Esperanto sentence only.",La florojn aĉetas la infano sur la tablo.,,,
+v0.1/accusative/037,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big woman sees the child in the garden.
+Esperanto: La granda virino vidas la infano en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La granda virino vidas la infanon en la ĝardeno.,,,
+v0.1/accusative/038,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The red boys see the table in the house.
+Esperanto: La ruĝaj knaboj vidas la tablo en la domo.
+Answer with the corrected Esperanto sentence only.",La ruĝaj knaboj vidas la tablon en la domo.,,,
+v0.1/accusative/039,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The men love the old boy in the garden.
+Esperanto: La viroj amas la malnova knabo en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La viroj amas la malnovan knabon en la ĝardeno.,,,
+v0.1/accusative/040,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The bird loves the boy in the room.
+Esperanto: La knabo amas la birdo en la ĉambro.
+Answer with the corrected Esperanto sentence only.",La knabon amas la birdo en la ĉambro.,,,
+v0.1/accusative/041,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big dog reads the small letter.
+Esperanto: La granda hundo legas la malgranda letero.
+Answer with the corrected Esperanto sentence only.",La granda hundo legas la malgrandan leteron.,,,
+v0.1/accusative/042,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The bird finds the apple.
+Esperanto: La pomo trovas la birdo.
+Answer with the corrected Esperanto sentence only.",La pomon trovas la birdo.,,,
+v0.1/accusative/043,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The beautiful cats see the girls.
+Esperanto: La knabinoj vidas la belaj katoj.
+Answer with the corrected Esperanto sentence only.",La knabinojn vidas la belaj katoj.,,,
+v0.1/accusative/044,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The new boy reads the books in the house.
+Esperanto: La nova knabo legas la libroj en la domo.
+Answer with the corrected Esperanto sentence only.",La nova knabo legas la librojn en la domo.,,,
+v0.1/accusative/045,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The cats read the blue book.
+Esperanto: La katoj legas la blua libro.
+Answer with the corrected Esperanto sentence only.",La katoj legas la bluan libron.,,,
+v0.1/accusative/046,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The beautiful child finds the houses.
+Esperanto: La bela infano trovas la domoj.
+Answer with the corrected Esperanto sentence only.",La bela infano trovas la domojn.,,,
+v0.1/accusative/047,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The small boy sees the men.
+Esperanto: La malgranda knabo vidas la viroj.
+Answer with the corrected Esperanto sentence only.",La malgranda knabo vidas la virojn.,,,
+v0.1/accusative/048,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The women read the letters in the house.
+Esperanto: La virinoj legas la leteroj en la domo.
+Answer with the corrected Esperanto sentence only.",La virinoj legas la leterojn en la domo.,,,
+v0.1/accusative/049,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The child sees the blue flower.
+Esperanto: La infano vidas la blua floro.
+Answer with the corrected Esperanto sentence only.",La infano vidas la bluan floron.,,,
+v0.1/accusative/050,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The child buys the loaf of bread in the house.
+Esperanto: La infano aĉetas la pano en la domo.
+Answer with the corrected Esperanto sentence only.",La infano aĉetas la panon en la domo.,,,
+v0.1/accusative/051,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big woman finds the big loaf of bread.
+Esperanto: La granda virino trovas la granda pano.
+Answer with the corrected Esperanto sentence only.",La granda virino trovas la grandan panon.,,,
+v0.1/accusative/052,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The blue girl sees the apple.
+Esperanto: La blua knabino vidas la pomo.
+Answer with the corrected Esperanto sentence only.",La blua knabino vidas la pomon.,,,
+v0.1/accusative/053,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The boy loves the bird.
+Esperanto: La knabo amas la birdo.
+Answer with the corrected Esperanto sentence only.",La knabo amas la birdon.,,,
+v0.1/accusative/054,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The old dogs buy the flower in the garden.
+Esperanto: La floro aĉetas la malnovaj hundoj en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La floron aĉetas la malnovaj hundoj en la ĝardeno.,,,
+v0.1/accusative/055,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The good women eat the apple.
+Esperanto: La bonaj virinoj manĝas la pomo.
+Answer with the corrected Esperanto sentence only.",La bonaj virinoj manĝas la pomon.,,,
+v0.1/accusative/056,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The new bird eats the blue loaves of bread.
+Esperanto: La bluaj panoj manĝas la nova birdo.
+Answer with the corrected Esperanto sentence only.",La bluajn panojn manĝas la nova birdo.,,,
+v0.1/accusative/057,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The red dog has the tree in the room.
+Esperanto: La ruĝa hundo havas la arbo en la ĉambro.
+Answer with the corrected Esperanto sentence only.",La ruĝa hundo havas la arbon en la ĉambro.,,,
+v0.1/accusative/058,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The red girls read the letters.
+Esperanto: La ruĝaj knabinoj legas la leteroj.
+Answer with the corrected Esperanto sentence only.",La ruĝaj knabinoj legas la leterojn.,,,
+v0.1/accusative/059,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big dog finds the table.
+Esperanto: La tablo trovas la granda hundo.
+Answer with the corrected Esperanto sentence only.",La tablon trovas la granda hundo.,,,
+v0.1/accusative/060,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The man finds the bird in the room.
+Esperanto: La birdo trovas la viro en la ĉambro.
+Answer with the corrected Esperanto sentence only.",La birdon trovas la viro en la ĉambro.,,,
+v0.1/accusative/061,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The old men have the good dog.
+Esperanto: La bona hundo havas la malnovaj viroj.
+Answer with the corrected Esperanto sentence only.",La bonan hundon havas la malnovaj viroj.,,,
+v0.1/accusative/062,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The red birds find the small apple in the house.
+Esperanto: La malgranda pomo trovas la ruĝaj birdoj en la domo.
+Answer with the corrected Esperanto sentence only.",La malgrandan pomon trovas la ruĝaj birdoj en la domo.,,,
+v0.1/accusative/063,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The boy buys the good letters in the garden.
+Esperanto: La bonaj leteroj aĉetas la knabo en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La bonajn leterojn aĉetas la knabo en la ĝardeno.,,,
+v0.1/accusative/064,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The boy reads the new books in the garden.
+Esperanto: La novaj libroj legas la knabo en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La novajn librojn legas la knabo en la ĝardeno.,,,
+v0.1/accusative/065,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The new boys see the woman in the house.
+Esperanto: La novaj knaboj vidas la virino en la domo.
+Answer with the corrected Esperanto sentence only.",La novaj knaboj vidas la virinon en la domo.,,,
+v0.1/accusative/066,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The good child sees the books on the table.
+Esperanto: La libroj vidas la bona infano sur la tablo.
+Answer with the corrected Esperanto sentence only.",La librojn vidas la bona infano sur la tablo.,,,
+v0.1/accusative/067,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The man eats the small loaf of bread.
+Esperanto: La malgranda pano manĝas la viro.
+Answer with the corrected Esperanto sentence only.",La malgrandan panon manĝas la viro.,,,
+v0.1/accusative/068,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The birds have the new cat on the table.
+Esperanto: La birdoj havas la nova kato sur la tablo.
+Answer with the corrected Esperanto sentence only.",La birdoj havas la novan katon sur la tablo.,,,
+v0.1/accusative/069,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The new birds love the children.
+Esperanto: La novaj birdoj amas la infanoj.
+Answer with the corrected Esperanto sentence only.",La novaj birdoj amas la infanojn.,,,
+v0.1/accusative/070,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The small woman sees the small men.
+Esperanto: La malgranda virino vidas la malgrandaj viroj.
+Answer with the corrected Esperanto sentence only.",La malgranda virino vidas la malgrandajn virojn.,,,
+v0.1/accusative/071,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The good boy finds the letter.
+Esperanto: La bona knabo trovas la letero.
+Answer with the corrected Esperanto sentence only.",La bona knabo trovas la leteron.,,,
+v0.1/accusative/072,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The girls love the boys in the garden.
+Esperanto: La knabinoj amas la knaboj en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La knabinoj amas la knabojn en la ĝardeno.,,,
+v0.1/accusative/073,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The red dog buys the small trees.
+Esperanto: La ruĝa hundo aĉetas la malgrandaj arboj.
+Answer with the corrected Esperanto sentence only.",La ruĝa hundo aĉetas la malgrandajn arbojn.,,,
+v0.1/accusative/074,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The dogs read the new letters on the table.
+Esperanto: La novaj leteroj legas la hundoj sur la tablo.
+Answer with the corrected Esperanto sentence only.",La novajn leterojn legas la hundoj sur la tablo.,,,
+v0.1/accusative/075,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The woman finds the big flower.
+Esperanto: La virino trovas la granda floro.
+Answer with the corrected Esperanto sentence only.",La virino trovas la grandan floron.,,,
+v0.1/accusative/076,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The bird buys the letters in the house.
+Esperanto: La birdo aĉetas la leteroj en la domo.
+Answer with the corrected Esperanto sentence only.",La birdo aĉetas la leterojn en la domo.,,,
+v0.1/accusative/077,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The woman reads the blue books in the room.
+Esperanto: La virino legas la bluaj libroj en la ĉambro.
+Answer with the corrected Esperanto sentence only.",La virino legas la bluajn librojn en la ĉambro.,,,
+v0.1/accusative/078,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The good dog buys the big letter.
+Esperanto: La bona hundo aĉetas la granda letero.
+Answer with the corrected Esperanto sentence only.",La bona hundo aĉetas la grandan leteron.,,,
+v0.1/accusative/079,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The old cat sees the loaf of bread in the house.
+Esperanto: La malnova kato vidas la pano en la domo.
+Answer with the corrected Esperanto sentence only.",La malnova kato vidas la panon en la domo.,,,
+v0.1/accusative/080,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The blue birds eat the apple.
+Esperanto: La pomo manĝas la bluaj birdoj.
+Answer with the corrected Esperanto sentence only.",La pomon manĝas la bluaj birdoj.,,,
+v0.1/accusative/081,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The beautiful dog finds the beautiful flower in the garden.
+Esperanto: La bela hundo trovas la bela floro en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La bela hundo trovas la belan floron en la ĝardeno.,,,
+v0.1/accusative/082,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The man has the dog on the table.
+Esperanto: La viro havas la hundo sur la tablo.
+Answer with the corrected Esperanto sentence only.",La viro havas la hundon sur la tablo.,,,
+v0.1/accusative/083,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The children find the tree on the table.
+Esperanto: La infanoj trovas la arbo sur la tablo.
+Answer with the corrected Esperanto sentence only.",La infanoj trovas la arbon sur la tablo.,,,
+v0.1/accusative/084,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The girl eats the loaves of bread.
+Esperanto: La knabino manĝas la panoj.
+Answer with the corrected Esperanto sentence only.",La knabino manĝas la panojn.,,,
+v0.1/accusative/085,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The men find the small tree in the house.
+Esperanto: La viroj trovas la malgranda arbo en la domo.
+Answer with the corrected Esperanto sentence only.",La viroj trovas la malgrandan arbon en la domo.,,,
+v0.1/accusative/086,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The old dogs love the bird.
+Esperanto: La birdo amas la malnovaj hundoj.
+Answer with the corrected Esperanto sentence only.",La birdon amas la malnovaj hundoj.,,,
+v0.1/accusative/087,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The new men read the book in the garden.
+Esperanto: La novaj viroj legas la libro en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La novaj viroj legas la libron en la ĝardeno.,,,
+v0.1/accusative/088,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The cats love the boy.
+Esperanto: La knabo amas la katoj.
+Answer with the corrected Esperanto sentence only.",La knabon amas la katoj.,,,
+v0.1/accusative/089,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The birds read the books in the house.
+Esperanto: La birdoj legas la libroj en la domo.
+Answer with the corrected Esperanto sentence only.",La birdoj legas la librojn en la domo.,,,
+v0.1/accusative/090,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The dog eats the big apple.
+Esperanto: La hundo manĝas la granda pomo.
+Answer with the corrected Esperanto sentence only.",La hundo manĝas la grandan pomon.,,,
+v0.1/accusative/091,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The girl finds the red loaf of bread.
+Esperanto: La knabino trovas la ruĝa pano.
+Answer with the corrected Esperanto sentence only.",La knabino trovas la ruĝan panon.,,,
+v0.1/accusative/092,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The bird buys the house.
+Esperanto: La birdo aĉetas la domo.
+Answer with the corrected Esperanto sentence only.",La birdo aĉetas la domon.,,,
+v0.1/accusative/093,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The old woman reads the big book.
+Esperanto: La malnova virino legas la granda libro.
+Answer with the corrected Esperanto sentence only.",La malnova virino legas la grandan libron.,,,
+v0.1/accusative/094,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The new cat eats the apple.
+Esperanto: La nova kato manĝas la pomo.
+Answer with the corrected Esperanto sentence only.",La nova kato manĝas la pomon.,,,
+v0.1/accusative/095,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big woman buys the beautiful letter on the table.
+Esperanto: La granda virino aĉetas la bela letero sur la tablo.
+Answer with the corrected Esperanto sentence only.",La granda virino aĉetas la belan leteron sur la tablo.,,,
+v0.1/accusative/096,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The beautiful woman sees the small book.
+Esperanto: La malgranda libro vidas la bela virino.
+Answer with the corrected Esperanto sentence only.",La malgrandan libron vidas la bela virino.,,,
+v0.1/accusative/097,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The new boys find the good girl on the table.
+Esperanto: La bona knabino trovas la novaj knaboj sur la tablo.
+Answer with the corrected Esperanto sentence only.",La bonan knabinon trovas la novaj knaboj sur la tablo.,,,
+v0.1/accusative/098,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The beautiful child finds the girl in the garden.
+Esperanto: La knabino trovas la bela infano en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La knabinon trovas la bela infano en la ĝardeno.,,,
+v0.1/accusative/099,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The dogs read the small letter in the garden.
+Esperanto: La hundoj legas la malgranda letero en la ĝardeno.
+Answer with the corrected Esperanto sentence only.",La hundoj legas la malgrandan leteron en la ĝardeno.,,,
+v0.1/accusative/100,accusative,"Esperanto marks the direct object with the ending -n (-jn in the plural), on the noun and on its adjective. Words after a preposition, and the subject, do not take -n. The Esperanto sentence below has no -n anywhere. Rewrite it adding -n only where Esperanto requires it, and keep the word order.
+English: The big boy sees the big tree.
+Esperanto: La granda knabo vidas la granda arbo.
+Answer with the corrected Esperanto sentence only.",La granda knabo vidas la grandan arbon.,,,
+v0.1/grammaticality/001,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La bonaj floroj estas tie.
+B) La bona floroj estas tie.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/002,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La hundo estas novaj.
+B) La hundo estas nova.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/003,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato havas la floron.
+B) La kato havas la floro.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/004,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La virino estas ruĝan kuraciston.
+B) La virino estas ruĝa kuracisto.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/005,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La hundo dormas en la ĝardeno.
+B) La hundo dormas en la ĝardenon.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/006,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La bluaj arbo dormas.
+B) La bluaj arboj dormas.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/007,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La domo estas bela.
+B) La domo estas belaj.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/008,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro manĝas la pomo.
+B) La viro manĝas la pomon.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/009,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabino estas bela instruisto.
+B) La knabino estas belan instruiston.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/010,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato loĝas en la ĉambron.
+B) La kato loĝas en la ĉambro.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/011,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La belaj katoj staras tie.
+B) La belaj kato staras tie.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/012,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La tabloj estas ruĝa.
+B) La tabloj estas ruĝaj.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/013,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo amas la katon.
+B) La knabo amas la kato.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/014,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo estas grandan kuraciston.
+B) La knabo estas granda kuracisto.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/015,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro dormas en la ĝardeno.
+B) La viro dormas en la ĝardenon.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/016,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La grandaj letero staras tie.
+B) La grandaj leteroj staras tie.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/017,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabinoj estas ruĝaj.
+B) La knabinoj estas ruĝa.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/018,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La hundo havas la knabino.
+B) La hundo havas la knabinon.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/019,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La birdo estas malgranda patro.
+B) La birdo estas malgrandan patron.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/020,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro laboras en la domon.
+B) La viro laboras en la domo.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/021,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La grandaj arboj dormas.
+B) La grandaj arbo dormas.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/022,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabinoj estas bela.
+B) La knabinoj estas belaj.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/023,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro vidas la panon.
+B) La viro vidas la pano.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/024,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabino estas ruĝan instruiston.
+B) La knabino estas ruĝa instruisto.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/025,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La hundo loĝas en la ĝardeno.
+B) La hundo loĝas en la ĝardenon.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/026,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La malnova domoj estas tie.
+B) La malnovaj domoj estas tie.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/027,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La floroj estas malgrandaj.
+B) La floroj estas malgranda.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/028,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro aĉetas la libro.
+B) La viro aĉetas la libron.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/029,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro estas blua studento.
+B) La viro estas bluan studenton.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/030,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro laboras en la ĉambron.
+B) La viro laboras en la ĉambro.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/031,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La malnovaj panoj dormas.
+B) La malnova panoj dormas.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/032,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabino estas bluaj.
+B) La knabino estas blua.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/033,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo vidas la libron.
+B) La knabo vidas la libro.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/034,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato estas bonan kuraciston.
+B) La kato estas bona kuracisto.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/035,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La virino ludas en la ĉambro.
+B) La virino ludas en la ĉambron.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/036,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La belaj arbo dormas.
+B) La belaj arboj dormas.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/037,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La floro estas blua.
+B) La floro estas bluaj.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/038,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La virino legas la letero.
+B) La virino legas la leteron.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/039,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La birdo estas ruĝa studento.
+B) La birdo estas ruĝan studenton.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/040,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La infano loĝas en la domon.
+B) La infano loĝas en la domo.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/041,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La bluaj infanoj dormas.
+B) La blua infanoj dormas.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/042,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La arboj estas granda.
+B) La arboj estas grandaj.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/043,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La birdo havas la arbon.
+B) La birdo havas la arbo.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/044,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabino estas grandan amikon.
+B) La knabino estas granda amiko.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/045,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro ludas en la domo.
+B) La viro ludas en la domon.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/046,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La novaj infano dormas.
+B) La novaj infanoj dormas.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/047,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La tablo estas blua.
+B) La tablo estas bluaj.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/048,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo trovas la birdo.
+B) La knabo trovas la birdon.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/049,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La virino estas bela patro.
+B) La virino estas belan patron.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/050,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo laboras en la ĝardenon.
+B) La knabo laboras en la ĝardeno.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/051,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La novaj viroj estas tie.
+B) La nova viroj estas tie.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/052,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro estas novaj.
+B) La viro estas nova.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/053,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo manĝas la panon.
+B) La knabo manĝas la pano.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/054,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La infano estas bonan amikon.
+B) La infano estas bona amiko.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/055,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La birdo dormas en la ĉambro.
+B) La birdo dormas en la ĉambron.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/056,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La ruĝa tabloj dormas.
+B) La ruĝaj tabloj dormas.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/057,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La arbo estas granda.
+B) La arbo estas grandaj.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/058,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La birdo trovas la knabino.
+B) La birdo trovas la knabinon.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/059,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La hundo estas ruĝa amiko.
+B) La hundo estas ruĝan amikon.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/060,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato laboras en la ĝardenon.
+B) La kato laboras en la ĝardeno.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/061,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La grandaj viroj staras tie.
+B) La grandaj viro staras tie.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/062,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La floro estas malgrandaj.
+B) La floro estas malgranda.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/063,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabino legas la leteron.
+B) La knabino legas la letero.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/064,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo estas ruĝan amikon.
+B) La knabo estas ruĝa amiko.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/065,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro laboras en la ĉambro.
+B) La viro laboras en la ĉambron.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/066,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La ruĝaj floro estas tie.
+B) La ruĝaj floroj estas tie.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/067,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La birdo estas bona.
+B) La birdo estas bonaj.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/068,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo vidas la virino.
+B) La knabo vidas la virinon.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/069,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La hundo estas blua amiko.
+B) La hundo estas bluan amikon.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/070,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato loĝas en la ĝardenon.
+B) La kato loĝas en la ĝardeno.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/071,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La grandaj knaboj estas tie.
+B) La grandaj knabo estas tie.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/072,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knaboj estas nova.
+B) La knaboj estas novaj.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/073,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La hundo vidas la knabon.
+B) La hundo vidas la knabo.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/074,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo estas belan studenton.
+B) La knabo estas bela studento.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/075,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato dormas en la ĝardeno.
+B) La kato dormas en la ĝardenon.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/076,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La bona floroj staras tie.
+B) La bonaj floroj staras tie.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/077,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La tabloj estas malgrandaj.
+B) La tabloj estas malgranda.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/078,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La infano havas la domo.
+B) La infano havas la domon.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/079,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La virino estas bela instruisto.
+B) La virino estas belan instruiston.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/080,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La hundo ludas en la ĝardenon.
+B) La hundo ludas en la ĝardeno.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/081,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La malnovaj birdoj staras tie.
+B) La malnovaj birdo staras tie.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/082,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La libro estas novaj.
+B) La libro estas nova.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/083,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La infano manĝas la panon.
+B) La infano manĝas la pano.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/084,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato estas malgrandan studenton.
+B) La kato estas malgranda studento.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/085,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo ludas en la ĝardeno.
+B) La knabo ludas en la ĝardenon.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/086,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La ruĝaj birdo staras tie.
+B) La ruĝaj birdoj staras tie.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/087,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La birdo estas nova.
+B) La birdo estas novaj.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/088,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo amas la hundo.
+B) La knabo amas la hundon.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/089,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato estas malgranda kuracisto.
+B) La kato estas malgrandan kuraciston.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/090,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabino loĝas en la ĝardenon.
+B) La knabino loĝas en la ĝardeno.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/091,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La bluaj leteroj dormas.
+B) La bluaj letero dormas.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/092,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La infanoj estas bona.
+B) La infanoj estas bonaj.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/093,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La infano vidas la panon.
+B) La infano vidas la pano.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/094,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo estas bluan kuraciston.
+B) La knabo estas blua kuracisto.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/095,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La birdo ludas en la domo.
+B) La birdo ludas en la domon.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/096,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La bonaj domo estas tie.
+B) La bonaj domoj estas tie.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/097,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La knabo estas nova.
+B) La knabo estas novaj.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/098,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato amas la knabo.
+B) La kato amas la knabon.
+Answer with a single letter, A or B.",B,,,
+v0.1/grammaticality/099,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La viro estas ruĝa kuracisto.
+B) La viro estas ruĝan kuraciston.
+Answer with a single letter, A or B.",A,,,
+v0.1/grammaticality/100,grammaticality,"Exactly one of these two Esperanto sentences is grammatically correct. Which one?
+A) La kato dormas en la ĝardenon.
+B) La kato dormas en la ĝardeno.
+Answer with a single letter, A or B.",B,,,
+v0.1/word-building/001,word-building,"Form one Esperanto word from the root ""vorto"" and the affix ""-ar-"" that means: dictionary (a collection of words). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",vortaro,,,
+v0.1/word-building/002,word-building,"Form one Esperanto word from the root ""bela"" and the affix ""-ec-"" that means: beauty. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",beleco,,,
+v0.1/word-building/003,word-building,"Form one Esperanto word from the root ""ŝlosi"" and the affix ""-il-"" that means: key (tool for locking). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",ŝlosilo,,,
+v0.1/word-building/004,word-building,"Form one Esperanto word from the root ""seka"" and the affix ""-iĝ-"" that means: to become dry. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",sekiĝi,,,
+v0.1/word-building/005,word-building,"Form one Esperanto word from the root ""bovo"" and the affix ""-id-"" that means: calf. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",bovido,,,
+v0.1/word-building/006,word-building,"Form one Esperanto word from the root ""lerni"" and the affix ""-ejo"" that means: school. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",lernejo,,,
+v0.1/word-building/007,word-building,"Form one Esperanto word from the root ""sukero"" and the affix ""-uj-"" that means: sugar bowl. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",sukerujo,,,
+v0.1/word-building/008,word-building,"Form one Esperanto word from the root ""porti"" and the affix ""for-"" that means: to carry away. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",forporti,,,
+v0.1/word-building/009,word-building,"Form one Esperanto word from the root ""ŝtato"" and the affix ""-an-"" that means: citizen. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",ŝtatano,,,
+v0.1/word-building/010,word-building,"Form one Esperanto word from the root ""frato"" and the affix ""-in-"" that means: sister. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",fratino,,,
+v0.1/word-building/011,word-building,"Form one Esperanto word from the root ""manĝi"" and the affix ""-aĵ-"" that means: food. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",manĝaĵo,,,
+v0.1/word-building/012,word-building,"Form one Esperanto word from the root ""patro"" and the affix ""-in-"" that means: mother. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",patrino,,,
+v0.1/word-building/013,word-building,"Form one Esperanto word from the root ""veni"" and the affix ""re-"" that means: to come back. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",reveni,,,
+v0.1/word-building/014,word-building,"Form one Esperanto word from the root ""kuraci"" and the affix ""-ist-"" that means: doctor, physician. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",kuracisto,,,
+v0.1/word-building/015,word-building,"Form one Esperanto word from the root ""hundo"" and the affix ""-id-"" that means: puppy. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",hundido,,,
+v0.1/word-building/016,word-building,"Form one Esperanto word from the root ""granda"" and the affix ""-ec-"" that means: size, greatness. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",grandeco,,,
+v0.1/word-building/017,word-building,"Form one Esperanto word from the root ""maljuna"" and the affix ""-iĝ-"" that means: to grow old. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",maljuniĝi,,,
+v0.1/word-building/018,word-building,"Form one Esperanto word from the root ""malsana"" and the affix ""-ul-"" that means: sick person, invalid. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",malsanulo,,,
+v0.1/word-building/019,word-building,"Form one Esperanto word from the root ""prezidanto"" and the affix ""eks-"" that means: former president. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",eksprezidanto,,,
+v0.1/word-building/020,word-building,"Form one Esperanto word from the root ""patroj"" and the affix ""ge-"" that means: parents (father and mother). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",gepatroj,,,
+v0.1/word-building/021,word-building,"Form one Esperanto word from the root ""skribi"" and the affix ""-il-"" that means: pen, writing tool. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",skribilo,,,
+v0.1/word-building/022,word-building,"Form one Esperanto word from the root ""libera"" and the affix ""-ec-"" that means: freedom. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",libereco,,,
+v0.1/word-building/023,word-building,"Form one Esperanto word from the root ""morta"" and the affix ""-ig-"" that means: to kill (cause to die). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",mortigi,,,
+v0.1/word-building/024,word-building,"Form one Esperanto word from the root ""avara"" and the affix ""-ul-"" that means: greedy person, miser. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",avarulo,,,
+v0.1/word-building/025,word-building,"Form one Esperanto word from the root ""fari"" and the affix ""-ebl-"" that means: doable, feasible. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",farebla,,,
+v0.1/word-building/026,word-building,"Form one Esperanto word from the root ""tranĉi"" and the affix ""-il-"" that means: knife. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",tranĉilo,,,
+v0.1/word-building/027,word-building,"Form one Esperanto word from the root ""legi"" and the affix ""-ebl-"" that means: legible (can be read). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",legebla,,,
+v0.1/word-building/028,word-building,"Form one Esperanto word from the root ""sendi"" and the affix ""dis-"" that means: to send around, to disseminate. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",dissendi,,,
+v0.1/word-building/029,word-building,"Form one Esperanto word from the root ""knabo"" and the affix ""-in-"" that means: girl. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",knabino,,,
+v0.1/word-building/030,word-building,"Form one Esperanto word from the root ""arbo"" and the affix ""-ar-"" that means: forest (a collection of trees). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",arbaro,,,
+v0.1/word-building/031,word-building,"Form one Esperanto word from the root ""labori"" and the affix ""-ejo"" that means: workplace. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",laborejo,,,
+v0.1/word-building/032,word-building,"Form one Esperanto word from the root ""urbo"" and the affix ""-an-"" that means: city dweller. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",urbano,,,
+v0.1/word-building/033,word-building,"Form one Esperanto word from the root ""ŝpari"" and the affix ""-em-"" that means: thrifty (inclined to save). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",ŝparema,,,
+v0.1/word-building/034,word-building,"Form one Esperanto word from the root ""manĝi"" and the affix ""-ejo"" that means: dining room, place to eat. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",manĝejo,,,
+v0.1/word-building/035,word-building,"Form one Esperanto word from the root ""kuiri"" and the affix ""-ejo"" that means: kitchen. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",kuirejo,,,
+v0.1/word-building/036,word-building,"Form one Esperanto word from the root ""granda"" and the affix ""-ig-"" that means: to enlarge (make big). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",grandigi,,,
+v0.1/word-building/037,word-building,"Form one Esperanto word from the root ""kato"" and the affix ""-id-"" that means: kitten. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",katido,,,
+v0.1/word-building/038,word-building,"Form one Esperanto word from the root ""domo"" and the affix ""-eg-"" that means: mansion, huge house. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",domego,,,
+v0.1/word-building/039,word-building,"Form one Esperanto word from the root ""vento"" and the affix ""-eg-"" that means: gale, strong wind. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",ventego,,,
+v0.1/word-building/040,word-building,"Form one Esperanto word from the root ""danci"" and the affix ""-ad-"" that means: dancing (the act). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",dancado,,,
+v0.1/word-building/041,word-building,"Form one Esperanto word from the root ""nova"" and the affix ""mal-"" that means: old. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",malnova,,,
+v0.1/word-building/042,word-building,"Form one Esperanto word from the root ""ami"" and the affix ""-ind-"" that means: lovable, worthy of love. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",aminda,,,
+v0.1/word-building/043,word-building,"Form one Esperanto word from the root ""urbo"" and the affix ""-estr-"" that means: mayor. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",urbestro,,,
+v0.1/word-building/044,word-building,"Form one Esperanto word from the root ""juna"" and the affix ""-ul-"" that means: young person. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",junulo,,,
+v0.1/word-building/045,word-building,"Form one Esperanto word from the root ""alta"" and the affix ""mal-"" that means: low. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",malalta,,,
+v0.1/word-building/046,word-building,"Form one Esperanto word from the root ""iri"" and the affix ""re-"" that means: to go back. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",reiri,,,
+v0.1/word-building/047,word-building,"Form one Esperanto word from the root ""granda"" and the affix ""mal-"" that means: small. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",malgranda,,,
+v0.1/word-building/048,word-building,"Form one Esperanto word from the root ""kanti"" and the affix ""ek-"" that means: to begin to sing, to burst into song. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",ekkanti,,,
+v0.1/word-building/049,word-building,"Form one Esperanto word from the root ""iri"" and the affix ""ek-"" that means: to set off. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",ekiri,,,
+v0.1/word-building/050,word-building,"Form one Esperanto word from the root ""homo"" and the affix ""-ar-"" that means: mankind. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",homaro,,,
+v0.1/word-building/051,word-building,"Form one Esperanto word from the root ""bona"" and the affix ""mal-"" that means: bad. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",malbona,,,
+v0.1/word-building/052,word-building,"Form one Esperanto word from the root ""biciklo"" and the affix ""-ist-"" that means: cyclist. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",biciklisto,,,
+v0.1/word-building/053,word-building,"Form one Esperanto word from the root ""pura"" and the affix ""-ig-"" that means: to clean (make clean). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",purigi,,,
+v0.1/word-building/054,word-building,"Form one Esperanto word from the root ""doni"" and the affix ""re-"" that means: to give back. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",redoni,,,
+v0.1/word-building/055,word-building,"Form one Esperanto word from the root ""avo"" and the affix ""pra-"" that means: great-grandfather, ancestor. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",praavo,,,
+v0.1/word-building/056,word-building,"Form one Esperanto word from the root ""ruĝa"" and the affix ""-iĝ-"" that means: to turn red, to blush. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",ruĝiĝi,,,
+v0.1/word-building/057,word-building,"Form one Esperanto word from the root ""doni"" and the affix ""dis-"" that means: to distribute. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",disdoni,,,
+v0.1/word-building/058,word-building,"Form one Esperanto word from the root ""bona"" and the affix ""-aĵ-"" that means: a good thing. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",bonaĵo,,,
+v0.1/word-building/059,word-building,"Form one Esperanto word from the root ""ŝipo"" and the affix ""-estr-"" that means: ship captain. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",ŝipestro,,,
+v0.1/word-building/060,word-building,"Form one Esperanto word from the root ""fratoj"" and the affix ""ge-"" that means: siblings (brothers and sisters). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",gefratoj,,,
+v0.1/word-building/061,word-building,"Form one Esperanto word from the root ""longa"" and the affix ""mal-"" that means: short. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",mallonga,,,
+v0.1/word-building/062,word-building,"Form one Esperanto word from the root ""domo"" and the affix ""-et-"" that means: cottage, small house. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",dometo,,,
+v0.1/word-building/063,word-building,"Form one Esperanto word from the root ""rivero"" and the affix ""-et-"" that means: brook, small river. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",riveto,,,
+v0.1/word-building/064,word-building,"Form one Esperanto word from the root ""kanti"" and the affix ""-ad-"" that means: singing (the act). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",kantado,,,
+v0.1/word-building/065,word-building,"Form one Esperanto word from the root ""instrui"" and the affix ""-ist-"" that means: teacher. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",instruisto,,,
+v0.1/word-building/066,word-building,"Form one Esperanto word from the root ""labori"" and the affix ""-em-"" that means: industrious (inclined to work). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",laborema,,,
+v0.1/word-building/067,word-building,"Form one Esperanto word from the root ""Eŭropo"" and the affix ""-an-"" that means: European (person). Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",Eŭropano,,,
+v0.1/word-building/068,word-building,"Form one Esperanto word from the root ""nova"" and the affix ""-aĵ-"" that means: news, a new thing. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",novaĵo,,,
+v0.1/word-building/069,word-building,"Form one Esperanto word from the root ""bona"" and the affix ""-ec-"" that means: goodness. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",boneco,,,
+v0.1/word-building/070,word-building,"Form one Esperanto word from the root ""iri"" and the affix ""for-"" that means: to go away. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",foriri,,,
+v0.1/word-building/071,word-building,"Form one Esperanto word from the root ""kompreni"" and the affix ""mis-"" that means: to misunderstand. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",miskompreni,,,
+v0.1/word-building/072,word-building,"Form one Esperanto word from the root ""kato"" and the affix ""-in-"" that means: female cat. Write the word in its basic form (a noun in -o, an adjective in -a, a verb in -i) unless the meaning is plural. Answer with the word only.",katino,,,
+v0.1/conjugation/001,conjugation,"Give the future active participle (used as an adjective) of the Esperanto verb ""aĉeti"" (to buy). Answer with the single word only.",aĉetonta,,,
+v0.1/conjugation/002,conjugation,"Give the conditional of the Esperanto verb ""resti"" (to stay). Answer with the single word only.",restus,,,
+v0.1/conjugation/003,conjugation,"Give the conditional of the Esperanto verb ""dormi"" (to sleep). Answer with the single word only.",dormus,,,
+v0.1/conjugation/004,conjugation,"Give the conditional of the Esperanto verb ""loĝi"" (to live (reside)). Answer with the single word only.",loĝus,,,
+v0.1/conjugation/005,conjugation,"Give the conditional of the Esperanto verb ""legi"" (to read). Answer with the single word only.",legus,,,
+v0.1/conjugation/006,conjugation,"Give the conditional of the Esperanto verb ""skribi"" (to write). Answer with the single word only.",skribus,,,
+v0.1/conjugation/007,conjugation,"Give the future passive participle (used as an adjective) of the Esperanto verb ""vidi"" (to see). Answer with the single word only.",vidota,,,
+v0.1/conjugation/008,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""legi"" (to read). Answer with the single word only.",leginta,,,
+v0.1/conjugation/009,conjugation,"Give the imperative (volitive) of the Esperanto verb ""legi"" (to read). Answer with the single word only.",legu,,,
+v0.1/conjugation/010,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""trinki"" (to drink). Answer with the single word only.",trinkinta,,,
+v0.1/conjugation/011,conjugation,"Give the present tense of the Esperanto verb ""paroli"" (to speak). Answer with the single word only.",parolas,,,
+v0.1/conjugation/012,conjugation,"Give the future passive participle (used as an adjective) of the Esperanto verb ""aŭdi"" (to hear). Answer with the single word only.",aŭdota,,,
+v0.1/conjugation/013,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""flugi"" (to fly). Answer with the single word only.",fluginta,,,
+v0.1/conjugation/014,conjugation,"Give the future tense of the Esperanto verb ""dormi"" (to sleep). Answer with the single word only.",dormos,,,
+v0.1/conjugation/015,conjugation,"Give the future active participle (used as an adjective) of the Esperanto verb ""loĝi"" (to live (reside)). Answer with the single word only.",loĝonta,,,
+v0.1/conjugation/016,conjugation,"Give the present tense of the Esperanto verb ""loĝi"" (to live (reside)). Answer with the single word only.",loĝas,,,
+v0.1/conjugation/017,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""trovi"" (to find). Answer with the single word only.",trovinta,,,
+v0.1/conjugation/018,conjugation,"Give the future tense of the Esperanto verb ""veni"" (to come). Answer with the single word only.",venos,,,
+v0.1/conjugation/019,conjugation,"Give the imperative (volitive) of the Esperanto verb ""fari"" (to do, to make). Answer with the single word only.",faru,,,
+v0.1/conjugation/020,conjugation,"Give the past tense of the Esperanto verb ""trovi"" (to find). Answer with the single word only.",trovis,,,
+v0.1/conjugation/021,conjugation,"Give the past tense of the Esperanto verb ""resti"" (to stay). Answer with the single word only.",restis,,,
+v0.1/conjugation/022,conjugation,"Give the past passive participle (used as an adjective) of the Esperanto verb ""legi"" (to read). Answer with the single word only.",legita,,,
+v0.1/conjugation/023,conjugation,"Give the future passive participle (used as an adjective) of the Esperanto verb ""ami"" (to love). Answer with the single word only.",amota,,,
+v0.1/conjugation/024,conjugation,"Give the future tense of the Esperanto verb ""skribi"" (to write). Answer with the single word only.",skribos,,,
+v0.1/conjugation/025,conjugation,"Give the imperative (volitive) of the Esperanto verb ""preni"" (to take). Answer with the single word only.",prenu,,,
+v0.1/conjugation/026,conjugation,"Give the imperative (volitive) of the Esperanto verb ""kanti"" (to sing). Answer with the single word only.",kantu,,,
+v0.1/conjugation/027,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""fari"" (to do, to make). Answer with the single word only.",farinta,,,
+v0.1/conjugation/028,conjugation,"Give the present tense of the Esperanto verb ""resti"" (to stay). Answer with the single word only.",restas,,,
+v0.1/conjugation/029,conjugation,"Give the future tense of the Esperanto verb ""paroli"" (to speak). Answer with the single word only.",parolos,,,
+v0.1/conjugation/030,conjugation,"Give the past tense of the Esperanto verb ""kanti"" (to sing). Answer with the single word only.",kantis,,,
+v0.1/conjugation/031,conjugation,"Give the past passive participle (used as an adjective) of the Esperanto verb ""vendi"" (to sell). Answer with the single word only.",vendita,,,
+v0.1/conjugation/032,conjugation,"Give the present tense of the Esperanto verb ""vidi"" (to see). Answer with the single word only.",vidas,,,
+v0.1/conjugation/033,conjugation,"Give the imperative (volitive) of the Esperanto verb ""ludi"" (to play). Answer with the single word only.",ludu,,,
+v0.1/conjugation/034,conjugation,"Give the future passive participle (used as an adjective) of the Esperanto verb ""vendi"" (to sell). Answer with the single word only.",vendota,,,
+v0.1/conjugation/035,conjugation,"Give the future active participle (used as an adjective) of the Esperanto verb ""flugi"" (to fly). Answer with the single word only.",flugonta,,,
+v0.1/conjugation/036,conjugation,"Give the future tense of the Esperanto verb ""aŭdi"" (to hear). Answer with the single word only.",aŭdos,,,
+v0.1/conjugation/037,conjugation,"Give the future tense of the Esperanto verb ""aĉeti"" (to buy). Answer with the single word only.",aĉetos,,,
+v0.1/conjugation/038,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""vidi"" (to see). Answer with the single word only.",vidinta,,,
+v0.1/conjugation/039,conjugation,"Give the future active participle (used as an adjective) of the Esperanto verb ""trovi"" (to find). Answer with the single word only.",trovonta,,,
+v0.1/conjugation/040,conjugation,"Give the present active participle (used as an adjective) of the Esperanto verb ""skribi"" (to write). Answer with the single word only.",skribanta,,,
+v0.1/conjugation/041,conjugation,"Give the present active participle (used as an adjective) of the Esperanto verb ""ami"" (to love). Answer with the single word only.",amanta,,,
+v0.1/conjugation/042,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""aŭdi"" (to hear). Answer with the single word only.",aŭdinta,,,
+v0.1/conjugation/043,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""aĉeti"" (to buy). Answer with the single word only.",aĉetinta,,,
+v0.1/conjugation/044,conjugation,"Give the present tense of the Esperanto verb ""trovi"" (to find). Answer with the single word only.",trovas,,,
+v0.1/conjugation/045,conjugation,"Give the conditional of the Esperanto verb ""manĝi"" (to eat). Answer with the single word only.",manĝus,,,
+v0.1/conjugation/046,conjugation,"Give the present tense of the Esperanto verb ""ami"" (to love). Answer with the single word only.",amas,,,
+v0.1/conjugation/047,conjugation,"Give the conditional of the Esperanto verb ""vendi"" (to sell). Answer with the single word only.",vendus,,,
+v0.1/conjugation/048,conjugation,"Give the future active participle (used as an adjective) of the Esperanto verb ""aŭdi"" (to hear). Answer with the single word only.",aŭdonta,,,
+v0.1/conjugation/049,conjugation,"Give the present active participle (used as an adjective) of the Esperanto verb ""dormi"" (to sleep). Answer with the single word only.",dormanta,,,
+v0.1/conjugation/050,conjugation,"Give the conditional of the Esperanto verb ""kanti"" (to sing). Answer with the single word only.",kantus,,,
+v0.1/conjugation/051,conjugation,"Give the past tense of the Esperanto verb ""manĝi"" (to eat). Answer with the single word only.",manĝis,,,
+v0.1/conjugation/052,conjugation,"Give the past tense of the Esperanto verb ""aĉeti"" (to buy). Answer with the single word only.",aĉetis,,,
+v0.1/conjugation/053,conjugation,"Give the present tense of the Esperanto verb ""legi"" (to read). Answer with the single word only.",legas,,,
+v0.1/conjugation/054,conjugation,"Give the future active participle (used as an adjective) of the Esperanto verb ""preni"" (to take). Answer with the single word only.",prenonta,,,
+v0.1/conjugation/055,conjugation,"Give the present tense of the Esperanto verb ""skribi"" (to write). Answer with the single word only.",skribas,,,
+v0.1/conjugation/056,conjugation,"Give the past tense of the Esperanto verb ""dormi"" (to sleep). Answer with the single word only.",dormis,,,
+v0.1/conjugation/057,conjugation,"Give the present active participle (used as an adjective) of the Esperanto verb ""trovi"" (to find). Answer with the single word only.",trovanta,,,
+v0.1/conjugation/058,conjugation,"Give the imperative (volitive) of the Esperanto verb ""nagi"" (to swim). Answer with the single word only.",nagu,,,
+v0.1/conjugation/059,conjugation,"Give the future passive participle (used as an adjective) of the Esperanto verb ""aĉeti"" (to buy). Answer with the single word only.",aĉetota,,,
+v0.1/conjugation/060,conjugation,"Give the conditional of the Esperanto verb ""paroli"" (to speak). Answer with the single word only.",parolus,,,
+v0.1/conjugation/061,conjugation,"Give the past tense of the Esperanto verb ""flugi"" (to fly). Answer with the single word only.",flugis,,,
+v0.1/conjugation/062,conjugation,"Give the future passive participle (used as an adjective) of the Esperanto verb ""manĝi"" (to eat). Answer with the single word only.",manĝota,,,
+v0.1/conjugation/063,conjugation,"Give the imperative (volitive) of the Esperanto verb ""dormi"" (to sleep). Answer with the single word only.",dormu,,,
+v0.1/conjugation/064,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""ami"" (to love). Answer with the single word only.",aminta,,,
+v0.1/conjugation/065,conjugation,"Give the conditional of the Esperanto verb ""vidi"" (to see). Answer with the single word only.",vidus,,,
+v0.1/conjugation/066,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""kuri"" (to run). Answer with the single word only.",kurinta,,,
+v0.1/conjugation/067,conjugation,"Give the future tense of the Esperanto verb ""trinki"" (to drink). Answer with the single word only.",trinkos,,,
+v0.1/conjugation/068,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""skribi"" (to write). Answer with the single word only.",skribinta,,,
+v0.1/conjugation/069,conjugation,"Give the past tense of the Esperanto verb ""ludi"" (to play). Answer with the single word only.",ludis,,,
+v0.1/conjugation/070,conjugation,"Give the imperative (volitive) of the Esperanto verb ""vidi"" (to see). Answer with the single word only.",vidu,,,
+v0.1/conjugation/071,conjugation,"Give the conditional of the Esperanto verb ""veni"" (to come). Answer with the single word only.",venus,,,
+v0.1/conjugation/072,conjugation,"Give the past tense of the Esperanto verb ""veni"" (to come). Answer with the single word only.",venis,,,
+v0.1/conjugation/073,conjugation,"Give the future tense of the Esperanto verb ""manĝi"" (to eat). Answer with the single word only.",manĝos,,,
+v0.1/conjugation/074,conjugation,"Give the present active participle (used as an adjective) of the Esperanto verb ""labori"" (to work). Answer with the single word only.",laboranta,,,
+v0.1/conjugation/075,conjugation,"Give the future tense of the Esperanto verb ""ludi"" (to play). Answer with the single word only.",ludos,,,
+v0.1/conjugation/076,conjugation,"Give the future tense of the Esperanto verb ""preni"" (to take). Answer with the single word only.",prenos,,,
+v0.1/conjugation/077,conjugation,"Give the imperative (volitive) of the Esperanto verb ""labori"" (to work). Answer with the single word only.",laboru,,,
+v0.1/conjugation/078,conjugation,"Give the past tense of the Esperanto verb ""kuri"" (to run). Answer with the single word only.",kuris,,,
+v0.1/conjugation/079,conjugation,"Give the future passive participle (used as an adjective) of the Esperanto verb ""fari"" (to do, to make). Answer with the single word only.",farota,,,
+v0.1/conjugation/080,conjugation,"Give the conditional of the Esperanto verb ""labori"" (to work). Answer with the single word only.",laborus,,,
+v0.1/conjugation/081,conjugation,"Give the past tense of the Esperanto verb ""trinki"" (to drink). Answer with the single word only.",trinkis,,,
+v0.1/conjugation/082,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""ludi"" (to play). Answer with the single word only.",ludinta,,,
+v0.1/conjugation/083,conjugation,"Give the imperative (volitive) of the Esperanto verb ""iri"" (to go). Answer with the single word only.",iru,,,
+v0.1/conjugation/084,conjugation,"Give the future active participle (used as an adjective) of the Esperanto verb ""ludi"" (to play). Answer with the single word only.",ludonta,,,
+v0.1/conjugation/085,conjugation,"Give the future active participle (used as an adjective) of the Esperanto verb ""kanti"" (to sing). Answer with the single word only.",kantonta,,,
+v0.1/conjugation/086,conjugation,"Give the imperative (volitive) of the Esperanto verb ""trovi"" (to find). Answer with the single word only.",trovu,,,
+v0.1/conjugation/087,conjugation,"Give the present tense of the Esperanto verb ""nagi"" (to swim). Answer with the single word only.",nagas,,,
+v0.1/conjugation/088,conjugation,"Give the present tense of the Esperanto verb ""fari"" (to do, to make). Answer with the single word only.",faras,,,
+v0.1/conjugation/089,conjugation,"Give the present passive participle (used as an adjective) of the Esperanto verb ""aĉeti"" (to buy). Answer with the single word only.",aĉetata,,,
+v0.1/conjugation/090,conjugation,"Give the past tense of the Esperanto verb ""nagi"" (to swim). Answer with the single word only.",nagis,,,
+v0.1/conjugation/091,conjugation,"Give the present passive participle (used as an adjective) of the Esperanto verb ""trinki"" (to drink). Answer with the single word only.",trinkata,,,
+v0.1/conjugation/092,conjugation,"Give the past passive participle (used as an adjective) of the Esperanto verb ""trovi"" (to find). Answer with the single word only.",trovita,,,
+v0.1/conjugation/093,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""paroli"" (to speak). Answer with the single word only.",parolinta,,,
+v0.1/conjugation/094,conjugation,"Give the present tense of the Esperanto verb ""iri"" (to go). Answer with the single word only.",iras,,,
+v0.1/conjugation/095,conjugation,"Give the present tense of the Esperanto verb ""flugi"" (to fly). Answer with the single word only.",flugas,,,
+v0.1/conjugation/096,conjugation,"Give the future tense of the Esperanto verb ""nagi"" (to swim). Answer with the single word only.",nagos,,,
+v0.1/conjugation/097,conjugation,"Give the past active participle (used as an adjective) of the Esperanto verb ""labori"" (to work). Answer with the single word only.",laborinta,,,
+v0.1/conjugation/098,conjugation,"Give the future tense of the Esperanto verb ""ami"" (to love). Answer with the single word only.",amos,,,
+v0.1/conjugation/099,conjugation,"Give the present passive participle (used as an adjective) of the Esperanto verb ""vendi"" (to sell). Answer with the single word only.",vendata,,,
+v0.1/conjugation/100,conjugation,"Give the imperative (volitive) of the Esperanto verb ""veni"" (to come). Answer with the single word only.",venu,,,
+v0.1/number-write/001,number-write,"Write the number 2099 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",du mil naŭdek naŭ,,,
+v0.1/number-read/001,number-read,"Write this Esperanto number in digits: mil kvincent dudek tri
+Answer with the digits only.",1523,,,
+v0.1/number-write/002,number-write,"Write the number 8900 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",ok mil naŭcent,,,
+v0.1/number-read/002,number-read,"Write this Esperanto number in digits: naŭ mil
+Answer with the digits only.",9000,,,
+v0.1/number-write/003,number-write,"Write the number 1709 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",mil sepcent naŭ,,,
+v0.1/number-read/003,number-read,"Write this Esperanto number in digits: sesdek unu
+Answer with the digits only.",61,,,
+v0.1/number-write/004,number-write,"Write the number 5651 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",kvin mil sescent kvindek unu,,,
+v0.1/number-read/004,number-read,"Write this Esperanto number in digits: kvin mil naŭcent naŭdek du
+Answer with the digits only.",5992,,,
+v0.1/number-write/005,number-write,"Write the number 3 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",tri,,,
+v0.1/number-read/005,number-read,"Write this Esperanto number in digits: mil tricent okdek unu
+Answer with the digits only.",1381,,,
+v0.1/number-write/006,number-write,"Write the number 3900 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",tri mil naŭcent,,,
+v0.1/number-read/006,number-read,"Write this Esperanto number in digits: naŭcent sesdek tri
+Answer with the digits only.",963,,,
+v0.1/number-write/007,number-write,"Write the number 3153 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",tri mil cent kvindek tri,,,
+v0.1/number-read/007,number-read,"Write this Esperanto number in digits: mil kvincent naŭdek sep
+Answer with the digits only.",1597,,,
+v0.1/number-write/008,number-write,"Write the number 42 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",kvardek du,,,
+v0.1/number-read/008,number-read,"Write this Esperanto number in digits: ok mil kvincent sepdek naŭ
+Answer with the digits only.",8579,,,
+v0.1/number-write/009,number-write,"Write the number 77 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",sepdek sep,,,
+v0.1/number-read/009,number-read,"Write this Esperanto number in digits: ses mil ducent
+Answer with the digits only.",6200,,,
+v0.1/number-write/010,number-write,"Write the number 737 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",sepcent tridek sep,,,
+v0.1/number-read/010,number-read,"Write this Esperanto number in digits: du mil ducent
+Answer with the digits only.",2200,,,
+v0.1/number-write/011,number-write,"Write the number 4786 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",kvar mil sepcent okdek ses,,,
+v0.1/number-read/011,number-read,"Write this Esperanto number in digits: du mil sepdek kvin
+Answer with the digits only.",2075,,,
+v0.1/number-write/012,number-write,"Write the number 9400 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",naŭ mil kvarcent,,,
+v0.1/number-read/012,number-read,"Write this Esperanto number in digits: mil okcent naŭdek sep
+Answer with the digits only.",1897,,,
+v0.1/number-write/013,number-write,"Write the number 6364 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",ses mil tricent sesdek kvar,,,
+v0.1/number-read/013,number-read,"Write this Esperanto number in digits: tridek unu
+Answer with the digits only.",31,,,
+v0.1/number-write/014,number-write,"Write the number 3500 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",tri mil kvincent,,,
+v0.1/number-read/014,number-read,"Write this Esperanto number in digits: kvindek ok
+Answer with the digits only.",58,,,
+v0.1/number-write/015,number-write,"Write the number 59 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",kvindek naŭ,,,
+v0.1/number-read/015,number-read,"Write this Esperanto number in digits: tri mil tricent sepdek sep
+Answer with the digits only.",3377,,,
+v0.1/number-write/016,number-write,"Write the number 75 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",sepdek kvin,,,
+v0.1/number-read/016,number-read,"Write this Esperanto number in digits: kvardek unu
+Answer with the digits only.",41,,,
+v0.1/number-write/017,number-write,"Write the number 28 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",dudek ok,,,
+v0.1/number-read/017,number-read,"Write this Esperanto number in digits: du mil okdek sep
+Answer with the digits only.",2087,,,
+v0.1/number-write/018,number-write,"Write the number 1120 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",mil cent dudek,,,
+v0.1/number-read/018,number-read,"Write this Esperanto number in digits: kvar mil ducent dudek naŭ
+Answer with the digits only.",4229,,,
+v0.1/number-write/019,number-write,"Write the number 80 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",okdek,,,
+v0.1/number-read/019,number-read,"Write this Esperanto number in digits: okcent tridek kvin
+Answer with the digits only.",835,,,
+v0.1/number-write/020,number-write,"Write the number 48 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",kvardek ok,,,
+v0.1/number-read/020,number-read,"Write this Esperanto number in digits: tridek ok
+Answer with the digits only.",38,,,
+v0.1/number-write/021,number-write,"Write the number 7800 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",sep mil okcent,,,
+v0.1/number-read/021,number-read,"Write this Esperanto number in digits: tri mil tricent kvardek ok
+Answer with the digits only.",3348,,,
+v0.1/number-write/022,number-write,"Write the number 2050 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",du mil kvindek,,,
+v0.1/number-read/022,number-read,"Write this Esperanto number in digits: naŭ mil sescent tridek unu
+Answer with the digits only.",9631,,,
+v0.1/number-write/023,number-write,"Write the number 4300 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",kvar mil tricent,,,
+v0.1/number-read/023,number-read,"Write this Esperanto number in digits: dudek sep
+Answer with the digits only.",27,,,
+v0.1/number-write/024,number-write,"Write the number 4000 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",kvar mil,,,
+v0.1/number-read/024,number-read,"Write this Esperanto number in digits: mil sescent naŭdek du
+Answer with the digits only.",1692,,,
+v0.1/number-write/025,number-write,"Write the number 2067 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",du mil sesdek sep,,,
+v0.1/number-read/025,number-read,"Write this Esperanto number in digits: kvin mil ducent dudek tri
+Answer with the digits only.",5223,,,
+v0.1/number-write/026,number-write,"Write the number 98 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",naŭdek ok,,,
+v0.1/number-read/026,number-read,"Write this Esperanto number in digits: mil cent sesdek tri
+Answer with the digits only.",1163,,,
+v0.1/number-write/027,number-write,"Write the number 1758 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",mil sepcent kvindek ok,,,
+v0.1/number-read/027,number-read,"Write this Esperanto number in digits: mil ducent kvardek kvin
+Answer with the digits only.",1245,,,
+v0.1/number-write/028,number-write,"Write the number 51 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",kvindek unu,,,
+v0.1/number-read/028,number-read,"Write this Esperanto number in digits: tricent kvin
+Answer with the digits only.",305,,,
+v0.1/number-write/029,number-write,"Write the number 1813 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",mil okcent dek tri,,,
+v0.1/number-read/029,number-read,"Write this Esperanto number in digits: sesdek ok
+Answer with the digits only.",68,,,
+v0.1/number-write/030,number-write,"Write the number 69 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",sesdek naŭ,,,
+v0.1/number-read/030,number-read,"Write this Esperanto number in digits: mil tricent tridek unu
+Answer with the digits only.",1331,,,
+v0.1/number-write/031,number-write,"Write the number 5300 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",kvin mil tricent,,,
+v0.1/number-read/031,number-read,"Write this Esperanto number in digits: tri mil ducent
+Answer with the digits only.",3200,,,
+v0.1/number-write/032,number-write,"Write the number 6984 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",ses mil naŭcent okdek kvar,,,
+v0.1/number-read/032,number-read,"Write this Esperanto number in digits: kvindek
+Answer with the digits only.",50,,,
+v0.1/number-write/033,number-write,"Write the number 64 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",sesdek kvar,,,
+v0.1/number-read/033,number-read,"Write this Esperanto number in digits: mil naŭcent kvindek tri
+Answer with the digits only.",1953,,,
+v0.1/number-write/034,number-write,"Write the number 2700 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",du mil sepcent,,,
+v0.1/number-read/034,number-read,"Write this Esperanto number in digits: dudek kvar
+Answer with the digits only.",24,,,
+v0.1/number-write/035,number-write,"Write the number 397 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",tricent naŭdek sep,,,
+v0.1/number-read/035,number-read,"Write this Esperanto number in digits: ses mil sepcent dudek kvin
+Answer with the digits only.",6725,,,
+v0.1/number-write/036,number-write,"Write the number 9100 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",naŭ mil cent,,,
+v0.1/number-read/036,number-read,"Write this Esperanto number in digits: kvin mil tricent tridek tri
+Answer with the digits only.",5333,,,
+v0.1/number-write/037,number-write,"Write the number 1446 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",mil kvarcent kvardek ses,,,
+v0.1/number-read/037,number-read,"Write this Esperanto number in digits: kvar mil okcent kvardek sep
+Answer with the digits only.",4847,,,
+v0.1/number-write/038,number-write,"Write the number 2292 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",du mil ducent naŭdek du,,,
+v0.1/number-read/038,number-read,"Write this Esperanto number in digits: mil naŭcent sesdek ses
+Answer with the digits only.",1966,,,
+v0.1/number-write/039,number-write,"Write the number 1000 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",mil,,,
+v0.1/number-read/039,number-read,"Write this Esperanto number in digits: okcent naŭdek kvin
+Answer with the digits only.",895,,,
+v0.1/number-write/040,number-write,"Write the number 1413 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",mil kvarcent dek tri,,,
+v0.1/number-read/040,number-read,"Write this Esperanto number in digits: du mil tridek naŭ
+Answer with the digits only.",2039,,,
+v0.1/number-write/041,number-write,"Write the number 66 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",sesdek ses,,,
+v0.1/number-read/041,number-read,"Write this Esperanto number in digits: dek naŭ
+Answer with the digits only.",19,,,
+v0.1/number-write/042,number-write,"Write the number 197 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",cent naŭdek sep,,,
+v0.1/number-read/042,number-read,"Write this Esperanto number in digits: naŭ mil ducent
+Answer with the digits only.",9200,,,
+v0.1/number-write/043,number-write,"Write the number 72 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",sepdek du,,,
+v0.1/number-read/043,number-read,"Write this Esperanto number in digits: ok mil ducent tridek du
+Answer with the digits only.",8232,,,
+v0.1/number-write/044,number-write,"Write the number 3234 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",tri mil ducent tridek kvar,,,
+v0.1/number-read/044,number-read,"Write this Esperanto number in digits: mil tricent
+Answer with the digits only.",1300,,,
+v0.1/number-write/045,number-write,"Write the number 1392 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",mil tricent naŭdek du,,,
+v0.1/number-read/045,number-read,"Write this Esperanto number in digits: sep mil cent kvardek naŭ
+Answer with the digits only.",7149,,,
+v0.1/number-write/046,number-write,"Write the number 846 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",okcent kvardek ses,,,
+v0.1/number-read/046,number-read,"Write this Esperanto number in digits: kvin mil sescent
+Answer with the digits only.",5600,,,
+v0.1/number-write/047,number-write,"Write the number 36 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",tridek ses,,,
+v0.1/number-read/047,number-read,"Write this Esperanto number in digits: kvar mil kvarcent sesdek kvin
+Answer with the digits only.",4465,,,
+v0.1/number-write/048,number-write,"Write the number 7644 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",sep mil sescent kvardek kvar,,,
+v0.1/number-read/048,number-read,"Write this Esperanto number in digits: kvardek sep
+Answer with the digits only.",47,,,
+v0.1/number-write/049,number-write,"Write the number 8700 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",ok mil sepcent,,,
+v0.1/number-read/049,number-read,"Write this Esperanto number in digits: ok mil kvarcent okdek ok
+Answer with the digits only.",8488,,,
+v0.1/number-write/050,number-write,"Write the number 90 in Esperanto words (hundreds and tens are one word, as in ""tricent"" and ""dudek""; thousands are a separate word, as in ""du mil""). Answer with the words only.",naŭdek,,,
+v0.1/number-read/050,number-read,"Write this Esperanto number in digits: mil ducent sesdek naŭ
+Answer with the digits only.",1269,,,

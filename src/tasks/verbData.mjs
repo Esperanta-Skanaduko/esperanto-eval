@@ -1,0 +1,42 @@
+/** Regular Esperanto verbs with English glosses. `transitive` verbs can form passive participles. */
+export const VERBS = [
+  { verb: 'paroli', english: 'to speak', transitive: false },
+  { verb: 'iri', english: 'to go', transitive: false },
+  { verb: 'veni', english: 'to come', transitive: false },
+  { verb: 'kuri', english: 'to run', transitive: false },
+  { verb: 'dormi', english: 'to sleep', transitive: false },
+  { verb: 'labori', english: 'to work', transitive: false },
+  { verb: 'kanti', english: 'to sing', transitive: false },
+  { verb: 'flugi', english: 'to fly', transitive: false },
+  { verb: 'nagi', english: 'to swim', transitive: false },
+  { verb: 'ludi', english: 'to play', transitive: false },
+  { verb: 'resti', english: 'to stay', transitive: false },
+  { verb: 'loĝi', english: 'to live (reside)', transitive: false },
+  { verb: 'manĝi', english: 'to eat', transitive: true },
+  { verb: 'legi', english: 'to read', transitive: true },
+  { verb: 'skribi', english: 'to write', transitive: true },
+  { verb: 'vidi', english: 'to see', transitive: true },
+  { verb: 'aŭdi', english: 'to hear', transitive: true },
+  { verb: 'ami', english: 'to love', transitive: true },
+  { verb: 'aĉeti', english: 'to buy', transitive: true },
+  { verb: 'vendi', english: 'to sell', transitive: true },
+  { verb: 'fari', english: 'to do, to make', transitive: true },
+  { verb: 'trinki', english: 'to drink', transitive: true },
+  { verb: 'trovi', english: 'to find', transitive: true },
+  { verb: 'preni', english: 'to take', transitive: true },
+];
+
+/** Verb forms: the ending that replaces `-i`, and a description for the prompt. Passive forms need a transitive verb. */
+export const FORMS = [
+  { ending: 'as', label: 'present tense', passive: false },
+  { ending: 'is', label: 'past tense', passive: false },
+  { ending: 'os', label: 'future tense', passive: false },
+  { ending: 'us', label: 'conditional', passive: false },
+  { ending: 'u', label: 'imperative (volitive)', passive: false },
+  { ending: 'anta', label: 'present active participle (used as an adjective)', passive: false },
+  { ending: 'inta', label: 'past active participle (used as an adjective)', passive: false },
+  { ending: 'onta', label: 'future active participle (used as an adjective)', passive: false },
+  { ending: 'ata', label: 'present passive participle (used as an adjective)', passive: true },
+  { ending: 'ita', label: 'past passive participle (used as an adjective)', passive: true },
+  { ending: 'ota', label: 'future passive participle (used as an adjective)', passive: true },
+];

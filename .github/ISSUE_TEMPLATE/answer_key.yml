@@ -1,0 +1,28 @@
+name: Answer key problem
+description: A gold answer is wrong, or another answer is also correct, or the question is ambiguous.
+labels: ["answer-key"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Item id
+      description: For example v0.1/accusative/017
+    validations: { required: true }
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Problem
+      options: ["The gold answer is wrong", "Another answer is also correct", "The question is ambiguous"]
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes:
+      label: Why, and what the answer should be
+      description: A rule or a reference (Fundamento, PMEG, a dictionary) helps.
+    validations: { required: true }
+  - type: dropdown
+    id: speaker
+    attributes:
+      label: How well do you know Esperanto?
+      options: ["Native speaker", "Fluent", "Learner"]
+    validations: { required: true }

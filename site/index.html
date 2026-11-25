@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>esperanto-eval: an Esperanto grammar benchmark</title>
+  <meta name="description" content="A benchmark of Esperanto grammar and word-building for language models: correlatives, accusative, agreement, affixes, verb forms and numbers. Browse the items and see results.">
+  <link rel="canonical" href="https://esperantaskanaduko.com/open-source/esperanto-eval/">
+  <link rel="icon" href="../../favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .bar { height: 10px; background: var(--code-bg); border-radius: 5px; position: relative; min-width: 120px; }
+    .bar > i { position: absolute; top: 0; bottom: 0; background: var(--green); opacity: .85; border-radius: 5px; }
+    .bar > b { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--text); }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .quiz-item { white-space: pre-wrap; font-size: 15px; }
+    .verdict { font-weight: 700; }
+    .verdict.ok { color: var(--green); } .verdict.bad { color: #b3261e; }
+  </style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href="../"><span class="star" aria-hidden="true">★</span> Esperanta Skanaduko · open source</a>
+  <nav aria-label="Project links"><a href="#results">Results</a><a href="#tasks">Tasks</a><a href="#try">Try items</a><a href="https://github.com/Esperanta-Skanaduko/esperanto-eval">GitHub</a></nav>
+</div></header>
+<main class="wrap">
+  <div class="hero">
+    <h1>esperanto-eval</h1>
+    <p class="lead">A benchmark of Esperanto grammar and word-building for language models. 577 questions in eight tasks, each with one correct answer that follows from a rule of the language, generated from a seed so anyone can audit or regenerate it.</p>
+    <ul class="badges"><li>Auditable keys</li><li>Any model</li><li>95% intervals</li><li>MIT</li></ul>
+    <div class="note"><strong>v0.1: not yet reviewed by native speakers.</strong> The answer keys come from standard rules and are checked by code, but no fluent speaker has gone through them. <a href="https://github.com/Esperanta-Skanaduko/esperanto-eval/blob/main/docs/REVIEW.md">Help review them.</a></div>
+    <p><a class="btn" href="#results">See results</a><a class="btn secondary" href="https://github.com/Esperanta-Skanaduko/esperanto-eval">Run it on your model</a></p>
+  </div>
+
+  <section id="results" aria-labelledby="results-h">
+    <h2 id="results-h">Results</h2>
+    <p class="muted">Overall is the average of the eight task accuracies. The bar shows each task's 95% interval; the dark mark is the accuracy.</p>
+    <div class="table-scroll"><table>
+      <caption class="sr-only">Accuracy per task for each model and baseline</caption>
+      <thead id="results-head"></thead><tbody id="results-body"></tbody>
+    </table></div>
+    <p class="muted" id="results-note"></p>
+  </section>
+
+  <section id="tasks" aria-labelledby="tasks-h">
+    <h2 id="tasks-h">The eight tasks</h2>
+    <div class="grid" id="tasks-grid"></div>
+  </section>
+
+  <section id="try" aria-labelledby="try-h">
+    <h2 id="try-h">Try the items yourself</h2>
+    <div class="card">
+      <div class="grid">
+        <div><label for="task">Task</label><select id="task"></select></div>
+        <div style="align-self:end"><button class="btn" id="next" type="button">Another item</button></div>
+      </div>
+      <p class="quiz-item" id="prompt" lang="eo"></p>
+      <label for="answer">Your answer</label>
+      <input id="answer" type="text" autocomplete="off" lang="eo">
+      <p><button class="btn secondary" id="check" type="button">Check</button> <span id="verdict" class="verdict" role="status"></span></p>
+      <p class="muted">Typing <code>cx</code>, <code>gx</code>, <code>hx</code>, <code>jx</code>, <code>sx</code> or <code>ux</code> counts as ĉ ĝ ĥ ĵ ŝ ŭ. Think the key is wrong? <a href="https://github.com/Esperanta-Skanaduko/esperanto-eval/issues/new?template=answer_key.yml">Tell us</a>; that is exactly the review this benchmark needs.</p>
+    </div>
+  </section>
+</main>
+<footer class="site"><div class="wrap">Part of <a href="../">Esperanta Skanaduko open source</a> · <a href="https://esperantaskanaduko.com/">esperantaskanaduko.com</a> · MIT licensed.</div></footer>
+<script>
+(async () => {
+  const data = await (await fetch('data.json')).json();
+  const pct = (value) => (value * 100).toFixed(1) + '%';
+  const el = (tag, text, attributes = {}) => { const node = document.createElement(tag); if (text !== undefined) node.textContent = text; Object.assign(node, attributes); return node; };
+
+  const taskIds = data.tasks.map((task) => task.id);
+  const head = document.getElementById('results-head');
+  const headRow = el('tr');
+  headRow.append(el('th', 'Model'), el('th', 'Overall'), ...data.tasks.map((task) => el('th', task.title)));
+  head.append(headRow);
+  const body = document.getElementById('results-body');
+  const order = [...data.runs].sort((a, b) => (a.type === 'model' ? 0 : 1) - (b.type === 'model' ? 0 : 1) || b.summary.overall - a.summary.overall);
+  for (const run of order) {
+    const row = el('tr');
+    row.append(el('th', run.name + (run.type === 'baseline' ? ' (baseline)' : ''), { scope: 'row' }), el('td', pct(run.summary.overall), { className: 'num' }));
+    for (const id of taskIds) {
+      const cell = el('td');
+      const task = run.summary.tasks.find((entry) => entry.task === id);
+      if (task) {
+        cell.append(el('div', pct(task.accuracy) + ' (' + task.correct + '/' + task.total + ')'));
+        const bar = el('div', undefined, { className: 'bar', title: '95% interval ' + pct(task.low) + ' to ' + pct(task.high) });
+        const range = el('i'); range.style.left = task.low * 100 + '%'; range.style.right = (1 - task.high) * 100 + '%';
+        const mark = el('b'); mark.style.left = task.accuracy * 100 + '%';
+        bar.append(range, mark); cell.append(bar);
+      }
+      row.append(cell);
+    }
+    body.append(row);
+  }
+  const models = data.runs.filter((run) => run.type === 'model').length;
+  document.getElementById('results-note').textContent = models + ' model run so far. This shows the harness working, not a ranking; add yours with a pull request.';
+
+  const grid = document.getElementById('tasks-grid');
+  for (const task of data.tasks) { const card = el('div', undefined, { className: 'card' }); card.append(el('strong', task.title), el('p', task.tests, { className: 'muted' })); grid.append(card); }
+
+  const select = document.getElementById('task');
+  for (const task of data.tasks) select.append(el('option', task.title, { value: task.id }));
+  const normalize = (text) => text.normalize('NFC').toLowerCase().trim().replace(/cx/g, 'ĉ').replace(/gx/g, 'ĝ').replace(/hx/g, 'ĥ').replace(/jx/g, 'ĵ').replace(/sx/g, 'ŝ').replace(/ux/g, 'ŭ').replace(/^[\s"'`*_]+|[\s"'`*_]+$/g, '').replace(/[.!?]+$/, '').replace(/\s+/g, ' ');
+  let current = null;
+  const next = () => {
+    const pool = data.items.filter((item) => item.task === select.value);
+    current = pool[Math.floor(Math.random() * pool.length)];
+    document.getElementById('prompt').textContent = current.prompt;
+    document.getElementById('answer').value = ''; document.getElementById('verdict').textContent = '';
+  };
+  const check = () => {
+    const given = document.getElementById('answer').value;
+    let ok;
+    if (current.kind === 'choice') ok = given.trim().toUpperCase().replace(/[^A-D]/g, '') === current.answer;
+    else if (current.kind === 'number') ok = given.replace(/[\s.,]/g, '') === current.answer;
+    else if (current.kind === 'words') ok = normalize(given).replace(/[\s-]/g, '') === normalize(current.answer).replace(/[\s-]/g, '');
+    else ok = normalize(given) === normalize(current.answer);
+    const verdict = document.getElementById('verdict');
+    verdict.textContent = ok ? 'Correct' : 'The key says: ' + current.answer;
+    verdict.className = 'verdict ' + (ok ? 'ok' : 'bad');
+  };
+  select.addEventListener('change', next);
+  document.getElementById('next').addEventListener('click', next);
+  document.getElementById('check').addEventListener('click', check);
+  document.getElementById('answer').addEventListener('keydown', (event) => { if (event.key === 'Enter') check(); });
+  next();
+})();
+</script>
+</body>
+</html>
